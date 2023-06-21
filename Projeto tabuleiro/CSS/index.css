@@ -1,0 +1,48 @@
+body{
+	margin: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.tabuleiro{
+	width: 800px;
+	height: 800px;
+	display: flex;
+	flex-direction: column;
+	border: 10px solid black;
+}
+.linha{
+	width: 100%;
+	height: 100px;
+	display: flex;
+}
+.black{
+	width: 100px;
+	height: 100px;
+	background-color: black;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.white{
+	width: 100px;
+	height: 100px;
+	background-color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.peças1{
+	width: 90px;
+	height: 90px;
+	background-color: white;
+	border: 5px solid brown;
+	border-radius: 100%;
+}
+.peças2{
+	width: 90px;
+	height: 90px;
+	background-color: black;
+	border: 5px solid red;
+	border-radius: 100%;
+}

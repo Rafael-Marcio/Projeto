@@ -1,6 +1,11 @@
+body{
+    margin: 0;
+    border: 20px solid yellow;
+}
+
 header{
-    width: 100%;
-    height: 40px;
+    width: 100vw;
+    height: 20vh;
     background-color: blue;
     color: white;
     display: flex;
@@ -9,17 +14,14 @@ header{
     font-size: 40px;
 }
 main{
-    width: 100%;
-    height: 600px;
+    width: 100vw;
+    height: 60vh;
     background-color: black;
-    color: white;
     display: flex;
-    flex-direction: column;
-    font-size: 50px;
 }
 footer{
-    width: 100%;
-    height: 60px;
+    width: 100vw;
+    height: 10vh;
     background-color: red;
     display: flex;
     flex-direction: column;
@@ -27,4 +29,22 @@ footer{
     align-items: center;
     color: white;
     font-size: 30px;
+}
+aside{
+    width: 500px;
+    height: 100%;
+    background-color: rgb(61, 21, 135);
+    color: white;
+    font-size: 50px;
+}
+img{
+    width: 1500px;
+}
+.caixa{
+    width: 100vw;
+    height: 10xp;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    color: white;
 }

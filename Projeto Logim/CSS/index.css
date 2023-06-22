@@ -1,0 +1,87 @@
+body{
+    margin: 0;
+    border: 5px solid gray;
+}
+header{
+    width: 100vw;
+    height: 20vh;
+    background-color: gray;
+    margin-top: -22px;
+    display: flex;
+    justify-content: center;
+}
+main{
+    width: 100vw;
+    height: 70vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer{
+    width: 100vw;
+    height: 10vh;
+    background-color: gray;
+}
+aside{
+    width: 50vw;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.a1{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 30px solid brown;
+    
+}
+.a2{
+    background-color: brown;
+    border: 30px solid brown;
+}
+img{
+    width: 30vw;
+    height: 30vh;
+    margin-left: 90px;
+    border-radius: 100%;
+}
+.caixa{
+    width: 65%;
+    height: 15%;
+    border-radius: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+button{
+    width: 60%;
+    height: 80px;
+    border: none;
+    background-color: rgb(81, 53, 53);
+    border-radius: 45px;
+    color: white;
+    border: 3px solid black;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    cursor: pointer;
+}
+button:hover{
+    opacity: 0.8;
+}
+.texto{
+    display: flex;
+    flex-direction: column;
+}
+input{
+    width: 300px;
+    height: 50px;
+    border-radius: 40px;
+    margin-bottom: 24px;
+}
+#um{
+    margin-right: 30px;
+}

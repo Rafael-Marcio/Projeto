@@ -48,3 +48,8 @@ img{
     justify-content: space-around;
     color: white;
 }
+button{
+    font-size: 50px;
+    background-color: rgb(61, 21, 135);
+    color: white;
+}

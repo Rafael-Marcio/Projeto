@@ -1,0 +1,38 @@
+body{
+    background-image: url("../images/fundo.jpg");
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    color: white;
+}
+input{
+    width: 300px;
+    height: 40px;
+    background-color: rgb(98, 73, 73);
+    color: white;
+    border: 5px solid black;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-bottom: 3px;
+    padding-left: 24px;
+}
+.box{
+    width: 500px;
+    display: flex;
+    border-radius: 20px;
+    color: white;
+    margin-bottom: 10px;
+}
+select{
+    width: 100px;
+    background-color: rgb(98, 73, 73);
+    color: white;
+    margin-left: 10px;
+    padding-left: 14px;
+}
+p{
+    width: 60px;
+}

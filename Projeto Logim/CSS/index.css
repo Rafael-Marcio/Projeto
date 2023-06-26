@@ -85,3 +85,11 @@ input{
 #um{
     margin-right: 30px;
 }
+a{
+    width: 49px;
+    height: 20px;
+    border: 3px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

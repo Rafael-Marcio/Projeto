@@ -9,7 +9,8 @@
 </head>
 
 <body>
-    <header> formulário </header>
+    <header> <h1>Sistemas de Gestão Acadêmica</h1><br> Manutenção de Usuários do Sistema Interno</header>
+    <div class="corpo">
     <div class="box">
         <p>Login</p>
         <input type="text" id="email" name="email" placeholder="Digite seu Login...">
@@ -27,9 +28,12 @@
     </div>
     <div class="box">
         <p>Tipo</p>
-        <input type="radio" id="radio" name="radio"><p>Técnico</p>
-        <input type="radio" id="radio" name="radio"><p>Professor</p>
-        <input type="radio" id="radio" name="radio"><p>Aluno</p>
+        <input type="radio" id="radio" name="radio">
+        <p>Técnico</p>
+        <input type="radio" id="radio" name="radio">
+        <p>Professor</p>
+        <input type="radio" id="radio" name="radio">
+        <p>Aluno</p>
     </div>
     <div class="box">
         <p>Data Criação</p>
@@ -37,15 +41,40 @@
     </div>
     <div class="box">
         <p>Perfil</p>
-        <input type="radio" id="radio" name="radio"><p>Convidado</p>
-        <input type="radio" id="radio" name="radio"><p>Administrador</p>
+        <input type="radio" id="radio" name="radio">
+        <p>Convidado</p>
+        <input type="radio" id="radio" name="radio">
+        <p>Administrador</p>
     </div>
     <div class="box">
         <p>Observação</p>
-        <input type="text" id="text" name="text">
-        <marquee>This text will scroll from right to left</marquee>
+        <textarea id="observação" name="w3review" rows="4" cols="50">
+        </textarea>
     </div>
-
+    <div class="box">
+        <p>Módulos</p>
+        <div class="box" id="box">
+            <div class="modelo">
+                <input type="checkbox" id="checkbox" name="checkbox">
+                <p>Compras</p>
+                <input type="checkbox" id="checkbox" name="checkbox">
+                <p>Biblioteca</p>
+                <input type="checkbox" id="checkbox" name="checkbox">
+                <p>Acadêmico</p>
+            </div>
+            <div class="modelo">
+                <input type="checkbox" id="checkbox" name="checkbox">
+                <p>Documentação</p>
+                <input type="checkbox" id="checkbox" name="checkbox">
+                <p>Recursos Humanos</p>
+            </div>
+        </div>
+    </div>
+    <div class="box" id="butoes">
+        <button class="cadastro">Cadastrar</button>
+        <button class="cadastro">Excluir</button>
+    </div>
+    </div>
 </body>
 
 </html>

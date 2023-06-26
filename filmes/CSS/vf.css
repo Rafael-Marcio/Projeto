@@ -1,0 +1,21 @@
+body{
+    margin: 0;
+    border: 10px solid black;
+}
+.elenco{
+    background-image: url("../images/elencovf.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: rgb(0, 0, 0);
+    border-radius: 20px;
+    color: white;
+}
+.resumo{
+    height: 300px;
+    padding-left: 10px;
+    background-image: url("../images/resumovf.jfif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}

@@ -1,0 +1,58 @@
+body{
+    width: 100vw;
+    height: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    background-image: url("../images/fundo.jfif");
+}
+.caixa{
+    width: 50vw;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    border: 5px solid white;
+    padding-left: 20px;
+    color: white;
+    border-radius: 20px;
+}
+button{
+    width: 130px;
+    height: 30px;
+    margin-top: 20px;
+    border-radius: 20px;
+    background-color: gray;
+    color: white;
+    cursor: pointer;
+}
+button:hover{
+    opacity: 0.7;
+}
+#mensagem{
+    width: 40vw;
+    height: 100px;
+    border-radius: 10px;
+}
+input{
+    width: 38vw;
+    height: 20px;
+    border:none;
+    padding: 12px;
+    border-radius: 10px;
+}
+.copia{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+#copia{
+    width: 20px;
+}
+.box{
+    margin-top: 20px;
+}

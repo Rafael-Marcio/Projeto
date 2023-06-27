@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
 body{
     margin: 0;
     border: 5px solid black;
@@ -37,6 +38,8 @@ body{
 }
 main{
     display: flex;
+    font-family: 'Dancing Script', cursive;
+
 }
 a{
     width: 120px;

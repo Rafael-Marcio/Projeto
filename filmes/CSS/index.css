@@ -1,18 +1,48 @@
-body{
+body {
     margin: 0;
     border: 5px solid black;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 60px;
+    border-radius: 20px;
 }
-.box{
+
+.box {
     width: 80vw;
     height: 300px;
     display: flex;
-    justify-content: space-around;
-    margin-bottom: 20px;
+    justify-content:center;
+    align-items: center;
+    margin-bottom: 40px;
+    background-color: black;
+    border-left: 130px solid black;
+    border-bottom: 40px solid black;
+    border-radius: 10px;
+    text-align: justify;
+    font-size: 30px;
+    margin: 20px;
+    color: white;
 }
-a{
-    background-color: white;
+p{
+    margin-right: 40px;
+}
+a {
+    width: 120px;
+    height: 80px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+    text-decoration: none;
+    font-weight: bolder;
+    color: white;
+    border-radius: 10px;
+    font-size: 30px;
+}
+img{
+    border-radius: 20px;
+    margin-right: 10px;
 }

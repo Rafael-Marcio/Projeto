@@ -1,0 +1,90 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Roboto+Mono:ital,wght@0,600;1,500&display=swap');
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Roboto Mono', monospace;
+}
+main{
+    width: 60vw;
+    height: 66vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin: 50px;
+    font-size: 30px;
+    border-radius: 20px;
+}
+aside{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction:column;
+   justify-content: center;
+   align-items: center;
+   border: 3px solid black;
+   background-color: rgb(34, 34, 34);
+}
+.linha{
+    width: 80%;
+    height: 10%;
+    display: flex;
+    justify-content: space-around;
+}
+img{
+    border-radius:100%;
+    margin-top: 100px;
+}
+.voto{
+    width: 300px;
+    height: 50px;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    border-radius: 5px;
+    text-shadow: 0 0 20px black
+}
+#vazio{
+    background-color: rgba(34, 34, 34, 0);;
+}
+#branco{
+    background-color: white;
+    color: black;    
+    width: 40%;
+    height: 80px;
+    padding: 24px;
+}
+#corrige{
+    background-color: red;
+    color: black;
+    width: 40%;
+    height: 80px;
+    padding: 24px;
+}
+#confirme{
+    background-color: rgb(60, 158, 97);
+    width: 40%;
+    height: 80px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    padding-right: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10px;
+}
+h1{
+    margin-bottom: -50px;
+}
+#confirmaçao{
+    margin-top: 80px;
+}
+.pe{
+    font-weight: 900;
+}

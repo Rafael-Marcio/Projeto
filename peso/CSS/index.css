@@ -5,13 +5,12 @@ body{
     align-items: center;
 }
 main{
-    width: 80vw;
-    height: 100vh;
+    width: 320px;
+    height: 1000px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: url("../images/graphic-node-iLKK0eFTywU-unsplash.jpg");
     background-size: cover;
 }
 input{
@@ -31,9 +30,13 @@ button{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 40vh;
     font-size: 25px;
 }
 p{
     margin-left: 100px;
+}
+img{
+    width: 320px;
+    height: 400px;
+    
 }

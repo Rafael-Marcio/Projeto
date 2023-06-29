@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/index.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <h1>Programa Situação do Aluno</h1>
+    </header>
+    <main>
+        <aside id="image">
+            <img src="images/undraw_Content_team_re_6rlg.png">
+        </aside>
+  
+            <div id="formulario">
+            <div class="box">
+                <p >1° Nota: </p>
+                <input type="number" id="numero" placeholder="Digite o número">
+            </div>
+            <br><button id="btn" onclick="calcular()">Verificar</button>
+            
+                <span id="resposta"></span>
+            
+        </div>
+    </main>
+
+</body>
+
+
+</html>
+<script type="text/javascript">
+    function calcular(){
+        var num = document.getElementById("numero");
+        var resposta = document.getElementById("resposta");
+        if(numero.value %2 == 0){
+            resposta.innerText="Par!";
+        }else{
+            resposta.innerText="Impar!";
+        }
+        
+    }
+    
+</script>

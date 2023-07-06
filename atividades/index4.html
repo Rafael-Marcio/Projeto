@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/index4.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="caixa">
+        <header>IMC</header>
+        <div class="linha">
+        <p>Digite seu peso: </p> 
+        </div>
+        <div class="linha">
+            <input type="number" id="peso" placeholder="Digite seu peso...">
+        </div>
+        <div class="linha">
+            <p>Digite sua altura: </p> 
+        </div>
+        <div class="linha">
+            <input type="number" id="altura" placeholder="Digite sua altura...">
+        </div>
+        <button id="btn" onclick="imc()">Calcular</button>
+        <span id="resposta"></span>
+    </div> 
+</body>
+</html>
+<script>
+    function imc(){
+        var peso = document.getElementById("peso");
+        var altura = document.getElementById("altura");
+        var resposta = document.getElementById("resposta");
+        var imc = ((peso.value)) / ((altura.value)*(altura.value));
+        if(imc <= 18.5){
+            resposta.innerText = imc.toFixed(2) + "! Você está abaixo do peso!";
+        }else if(imc >= 18.5 && imc <= 24.9){
+            resposta.innerText=imc.toFixed(2) + "! Você está no peso ideal!";
+        }
+        else if(imc >= 24.9 && imc <= 29.9){
+            resposta.innerText=imc.toFixed(2) + "! Você está acima do peso!";
+        }else{
+            resposta.innerText=imc.toFixed(2) + "! Você está muito gordo!"
+        }
+    }
+</script>

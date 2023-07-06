@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/index5.css">
+    <title>Mega Sena</title>
+</head>
+<body>
+    
+    <div class="caixa">
+        <header>Jogo</header>
+        <p>Digite o primeiro número: </p>
+        <input type="text" id="num1" placeholder="Digite um número: ">
+        <p>Digite o segundo número: </p>
+        <input type="text" id="num2" placeholder="Digite um número: ">
+        <p>Digite o terceiro número: </p>
+        <input type="text" id="num3" placeholder="Digite um número: ">
+        <p>Digite o quarto número: </p>
+        <input type="text" id="num4" placeholder="Digite um número: ">
+        <p>Digite o quinto número: </p>
+        <input type="text" id="num5" placeholder="Digite um número: ">
+        <p>Digite o sexto número: </p>
+        <input type="text" id="num6" placeholder="Digite um número: ">
+        <button id="Palpite" onclick="palpiteiro()">Palpite</button>
+        <span id="resultado"></span>
+    </div>
+    
+</html>
+<script>
+    function palpiteiro(){
+        var num = [];
+        var numeros = [];
+        var num1 = document.getElementById("num1");
+        var num2 = document.getElementById("num2");
+        var num3 = document.getElementById("num3");
+        var num4 = document.getElementById("num4");
+        var num5 = document.getElementById("num5");
+        var num6 = document.getElementById("num6");
+        var resultado = document.getElementById("resultado");
+        num.push(num1.value);
+        num.push(num2.value);
+        num.push(num3.value);
+        num.push(num4.value);
+        num.push(num5.value);
+        num.push(num6.value);
+        for(var i = 1; i <= 6; i++){
+            numeros.push(Math.floor(Math.random()*60));
+        }
+        num.sort();
+        numeros.sort();
+        if(num === numeros){
+            resultado.innerText = `${num} Os números que você digitou está correto!`;
+        }else{
+            resultado.innerText = `Os números que você digitou está incorreto: \n Os números corretos erram: ${numeros}`;
+        }
+    }
+</script>

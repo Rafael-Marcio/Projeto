@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="CSS/index3.css">
+	<title>Calculadora</title>
+</head>
+<body>
+	<div class="Calculadora">
+		<div class="caixa">
+			<div class="resultado">
+				<input type="text" id="resultado">
+			</div>
+		</div>
+		<div class="caixa" id="botoes">
+			<div class="tecla">
+                <button id="limpar" onclick="limpar()">
+                    AC
+                </button>
+            </div>
+			<div class="tecla" id="verde">
+                <button id="verde" onclick="operador('/')">
+                    /
+                </button>
+            </div>
+		</div>
+		<div class="caixa" id="botoes">
+			<div class="tecla">
+                <button id="num"  onclick="inserir(7)">
+                    7
+                </button>
+            </div>
+			<div class="tecla">
+                <button id="num"  onclick="inserir(8)">
+                    8
+                </button>
+            </div>
+			<div class="tecla">
+                <button id="num"  onclick="inserir(9)">
+                    9
+                </button>
+            </div>
+			<div class="tecla" id="verde">
+                <button id="verde" onclick="operador('*')">
+                    *
+                </button>
+            </div>
+		</div>
+		<div class="caixa" id="botoes">
+			<div class="tecla">
+                <button id="num"  onclick="inserir(4)">
+                    4
+                </button>
+            </div>
+			<div class="tecla">
+                <button id="num"  onclick="inserir(5)">
+                    5
+                </button>
+            </div>
+			<div class="tecla">
+                <button id="num"  onclick="inserir(6)">
+                    6
+                </button>
+            </div>
+			<div class="tecla" id="verde">
+                <button id="verde" onclick="operador('-')">
+                    -
+                </button>    
+            </div>
+		</div>
+		<div class="caixa" id="botoes">
+			<div class="tecla">
+                <button id="num"  onclick="inserir(1)">
+                    1
+                </button>
+            </div>
+			<div class="tecla">
+                <button id="num"  onclick="inserir(2)">
+                    2
+                </button>
+            </div>
+			<div class="tecla">
+                <button id="num"  onclick="inserir(3)">
+                    3
+                </button>
+            </div>
+			<div class="tecla" id="verde">
+                <button id="verde" onclick="operador('+')">
+                    +
+                </button>    
+            </div>
+		</div>
+		<div class="caixa" id="botoes">
+			<div class="tecla">
+                <button id="num" onclick="inserir(0)">
+                    0
+                </button>
+            </div>
+			<div class="tecla">
+                <button onclick="inserir('.')">
+                    .
+                </button>
+            </div>
+			<div class="tecla">
+                <button  id="red" onclick="calcular()">
+                    =
+                </button>
+            </div>
+		</div>
+	</div>
+	
+</body>
+</html>
+<script>
+    function inserir(num){
+        var area = document.getElementById("resultado");
+        area.value+=num;
+    }
+    function limpar(){
+        var area = document.getElementById("resultado");
+        area.value="";
+    }
+    function operador(operador){
+        var area = document.getElementById("resultado");
+        area.value+=operador;
+    }
+    function calcular(){
+        var area = document.getElementById("resultado");
+        area.value=eval(area.value);
+    }
+</script>

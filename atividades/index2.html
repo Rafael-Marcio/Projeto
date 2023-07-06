@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/index2.css">
+    <title>Atividade1</title>
+</head>
+<body>
+    <div class="caixa">
+        <h1>Calculadora</h1>
+        <img src="images/undraw_Calculator_re_alsc.png" alt="">
+        <div class="linha">
+            <p>Digite o primeiro número: </p>
+        </div>
+        <div class="linha" id="fundo">
+            <input type="num" id="num1">
+        </div>
+        <div class="linha">
+            <p>Digite o segundo número: </p>
+        </div>
+        <div class="linha" id="fundo">
+            <input type="num" id="num2">
+        </div>
+        <div class="linha" id="fundo">
+            <button id="btn1" onclick="soma()">+</button>
+            <button id="btn2" onclick="subtracao()">-</button>
+            <button id="btn3" onclick="multiplicacao()">*</button>
+            <button id="btn4" onclick="divisao()">/</button>
+        </div>
+        <span id="resposta"></span>
+    </div>
+</body>
+</html>
+<script>
+    function soma(){
+        var num1 = document.getElementById("num1");
+        var num2 = document.getElementById("num2");
+        var resposta = document.getElementById("resposta");
+        var soma = (Number(num1.value))+(Number(num2.value));
+        resposta.innerText=soma.toFixed(2);
+    }
+    function subtracao(){
+        var num1 = document.getElementById("num1");
+        var num2 = document.getElementById("num2");
+        var resposta = document.getElementById("resposta");
+        var subtracao = (Number(num1.value))-(Number(num2.value));
+        resposta.innerText=subtracao.toFixed(2);
+    }
+    function multiplicacao(){
+        var num1 = document.getElementById("num1");
+        var num2 = document.getElementById("num2");
+        var resposta = document.getElementById("resposta");
+        var multiplicacao = (Number(num1.value))*(Number(num2.value));
+        resposta.innerText=multiplicacao.toFixed(2);
+    }
+    function divisao(){
+        var num1 = document.getElementById("num1");
+        var num2 = document.getElementById("num2");
+        var resposta = document.getElementById("resposta");
+        var divisao = (Number(num1.value))/(Number(num2.value));
+        resposta.innerText=divisao.toFixed(2);
+    }
+</script>

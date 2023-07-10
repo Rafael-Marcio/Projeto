@@ -1,0 +1,49 @@
+body{
+    width: 100vw;
+    height: 900px;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 40px;
+}
+#quest{
+    width: 50%;
+    height: 500px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    border: 5px solid black;
+}
+img{
+    width: 50%;
+    height: 500px;
+    border-radius: 40px;
+    border: 5px solid black;    
+}
+input{
+    width: 200px;
+    height: 30px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+button{
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 15px;
+    margin: 10px;
+}
+p{
+    font-weight: bold;
+}
+header{
+    font-size: 20px;
+    font-weight: 550;
+}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/index7.css">
+    <title>Radar</title>
+</head>
+<body>
+        <div class="box" id="image">
+            <img src="images/undraw_online_stats_0g94.png" alt="">
+        </div>
+        <div class="box" id="quest">
+            <header>Programa de Verificação <br>de Velocidade!</header>
+            <p>Velocidade Permitida: </p>
+            <input type="text" id="perm">
+            <p>Velocidade do Condutor: </p>
+            <input type="text" id="cond">
+            <button id="btn" onclick="velocidade()">Verificar Velocidade</button>
+            <input type="text" id="resultado" readonly>
+        </div>
+</body>
+</html>
+<script>
+    function velocidade(){
+        var visor = document.getElementById("resultado");
+        var cond = document.getElementById("cond");
+        var perm = document.getElementById("perm");
+        if(cond <= perm){
+            console.log("Correto")
+            visor.value = "O condutor está na velocidade correta!"
+        }
+    }
+</script>

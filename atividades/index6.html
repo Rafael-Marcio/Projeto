@@ -120,16 +120,36 @@
     }
     function operador(operador){
         let area = document.getElementById("resultado");
-        area.value += operador;
+        lista.push(area.value);
         lista.push(operador);
+        area.value = "";
+        console.log(lista);
     }
     function limpar(){
         let area = document.getElementById("resultado");
         area.value = "";
+        lista = [];
     }
     function calcular(){
-        let num1 = area.value;
-        lista.push(num);
+        let area = document.getElementById("resultado");
+        lista.push(area.value);
         console.log(lista);
+        if(lista[1] == '+'){
+            let resposta = area.value = Number(lista[0]) + Number(lista[2]);
+            area.innerText=resposta;
+            lista = [];
+        }else if(lista[1] == '-'){
+            let resposta = area.value = Number(lista[0]) - Number(lista[2]);
+            area.innerText=resposta;
+            lista = [];
+        }else if(lista[1] == '*'){
+            let resposta = area.value = Number(lista[0]) * Number(lista[2]);
+            area.innerText=resposta;
+            lista = [];
+        }else if(lista[1] == '/'){
+            let resposta = area.value = Number(lista[0]) / Number(lista[2]);
+            area.innerText=resposta;
+            lista = [];
+        } 
     }
 </script>

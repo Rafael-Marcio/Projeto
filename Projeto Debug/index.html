@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/index.css">
+    <title>Debug</title>
+</head>
+
+<body>
+    <div class="caixa">
+        <div class="box" id="vet">
+            <p>Meu Vetor: </p>
+            <textarea id="resultado" cols="30" rows="10" readonly></textarea>
+            <Button id="btn" onclick="limpar()">Limpar</Button>
+        </div>
+        <div class="box" id="adi">
+            <p>Inserir: </p>
+            <input type="text" id="adicionar">
+            <button id="btn" onclick="adicionar()">Inserir</button>
+        </div>
+    </div>
+</body>
+
+</html>
+<script>
+    var list = [];
+    function adicionar() {
+        var visor = document.getElementById("resultado");
+        var adicionar = document.getElementById("adicionar");
+        list.push(adicionar.value);
+        visor.value += adicionar.value +",";
+        console.log(list[0]);
+        console.log(list[1]);
+        console.log(list[2]);
+        console.log(list[3]);
+    }
+    function limpar(){
+        var visor = document.getElementById("resultado");
+        visor.value = "";
+        list = [];
+    }
+</script>

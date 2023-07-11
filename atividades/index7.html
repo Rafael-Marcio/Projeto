@@ -13,22 +13,43 @@
         <div class="box" id="quest">
             <header>Programa de Verificação <br>de Velocidade!</header>
             <p>Velocidade Permitida: </p>
-            <input type="text" id="perm">
+            <input type="number" id="perm">
             <p>Velocidade do Condutor: </p>
-            <input type="text" id="cond">
+            <input type="number" id="cond">
             <button id="btn" onclick="velocidade()">Verificar Velocidade</button>
             <input type="text" id="resultado" readonly>
+            <span id="resposta"></span>
         </div>
 </body>
 </html>
 <script>
+    var list = [];
     function velocidade(){
         var visor = document.getElementById("resultado");
         var cond = document.getElementById("cond");
         var perm = document.getElementById("perm");
-        if(cond <= perm){
-            console.log("Correto")
-            visor.value = "O condutor está na velocidade correta!"
+        var resposta = document.getElementById("resposta");
+        list.push(perm.value);
+        list.push(cond.value);
+        console.log(list);
+        var leve = list[0] * 1.15;
+        var media = list[0] * 1.20;
+        var grave = list[0] * 1.35;
+        if((list[1] > leve) && (list[1] < media)){
+            visor.value = "Multa leve!";
+            resposta.innerText = "Você pagará R$195,00."
+            list = [];
+        }else if((list[1] >= media) && (list[1] < grave)){
+            visor.value = "Multa Média";
+            resposta.innerText = "Você pagará R$260,00."
+            list = [];
+        }else if(list[1] >= grave){
+            visor.value = "Multa Grave";
+            resposta.innerText = "Você pagará R$455,00."
+            list = [];
+        }else{
+            visor.value = "Velocidade Adequada!";
+            list = [];
         }
     }
 </script>

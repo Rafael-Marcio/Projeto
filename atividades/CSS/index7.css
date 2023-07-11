@@ -47,3 +47,9 @@ header{
     font-size: 20px;
     font-weight: 550;
 }
+#resultado{
+    height: 60px;
+}
+span{
+    font-size: 25px;
+}

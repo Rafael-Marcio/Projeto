@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/index9.css">
+    <title>Tabuada</title>
+</head>
+
+<body>
+    <div class="box">
+        <header>Tabuada</header>
+        <p>Número: </p>
+        <input type="number" id="valor">
+        <button onclick="tabuada()">Mostrar Tabuada</button>
+        <span id="resultado"></span>
+    </div>
+</body>
+
+</html>
+<script>
+    function tabuada() {
+        var resultado = document.getElementById("resultado");
+        resultado.innerText = "";
+        var numero = document.getElementById("valor");
+        var valor = Number(numero.value);
+        for (var i = 1; i <= 10; i++){
+            resultado.innerText += valor + "x" + i + "=" + valor * i + "\n";
+        }
+    }
+</script>

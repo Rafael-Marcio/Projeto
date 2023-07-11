@@ -1,0 +1,51 @@
+body{
+    width: 100vw;
+    height: 900px;
+    background-image: url("../images/nick-iliasov-75tQQJvpym4-unsplash.jpg");
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box{
+    width: 160px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(128, 128, 128, 0.478);
+}
+input{
+    width: 140px;
+    height: 150px;
+    border-radius: 100%;
+    display: flex;
+    text-align: center;
+    font-size: 110px;
+}
+button{
+    width: 100px;
+    height: 80px;
+    font-size: 50px;
+    margin: 5px;
+    border-radius: 10px;
+}
+#btn{
+    text-align: center;
+    font-size: 30px;
+    padding-right: 17px;
+}
+img{
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    margin: 10px;
+}
+#box{
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+#box1{
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}

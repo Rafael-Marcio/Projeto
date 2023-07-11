@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/index8.css">
+    <title>Contador</title>
+</head>
+<body>
+    <div class="box" id="box">
+        <button onclick="mais()">+</button>
+        <button onclick="menos()">-</button>
+        <button id="btn" onclick="limpar()">Limpar</button>
+    </div>
+    <div class="box" id="box1">
+        <input id="resultado" readonly>
+         <div class="box1">
+            <img src="images/images.png" alt="">
+         </div>
+    </div>
+</body>
+</html>
+<script>
+    function mais(){
+        var visor = document.getElementById("resultado");
+        var tela = Number(visor.value) + 1;
+        visor.value = tela;
+    }
+    function menos(){
+        var visor = document.getElementById("resultado");
+        var tela = Number(visor.value) - 1;
+        if(visor.value <= 0){
+            visor.value = 0;
+        }else{
+            visor.value = tela;
+        }
+        
+    }
+    function limpar(){
+        var visor = document.getElementById("resultado");
+        visor.value = "";
+    }
+</script>

@@ -5,6 +5,8 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    background-image: url("https://img.freepik.com/fotos-premium/uma-estrada-com-um-horizonte-da-cidade-a-noite_899894-6609.jpg?w=2000");
+    background-size: cover;
 }
 .box{
     display: flex;
@@ -15,16 +17,18 @@ body{
 #quest{
     width: 50%;
     height: 500px;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.414);
     display: flex;
     flex-direction: column;
     border: 5px solid black;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }
 img{
     width: 50%;
     height: 500px;
     border-radius: 40px;
-    border: 5px solid black;    
+    border: 5px solid black;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }
 input{
     width: 200px;

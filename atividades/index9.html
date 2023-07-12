@@ -13,8 +13,11 @@
         <header>Tabuada</header>
         <p>Número: </p>
         <input type="number" id="valor">
-        <button onclick="tabuada()">Mostrar Tabuada</button>
+        <button onclick="tabuada()">Mostrar Tabuada Multiplicação</button>
+        <button onclick="divisao()">Mostrar Tabuada Divisão</button>
+        <button onclick="porcentagem()">Mostrar Porcentagens</button>
         <span id="resultado"></span>
+        <a href="index.html">Voltar</a>
     </div>
 </body>
 
@@ -26,7 +29,42 @@
         var numero = document.getElementById("valor");
         var valor = Number(numero.value);
         for (var i = 1; i <= 10; i++){
-            resultado.innerText += valor + "x" + i + "=" + valor * i + "\n";
+            resultado.innerText += valor + " x " + i + "=" + valor * i + "\n";
         }
+    }
+    function divisao() {
+        var resultado = document.getElementById("resultado");
+        resultado.innerText = "";
+        var numero = document.getElementById("valor");
+        var valor = Number(numero.value);
+        for (var i = 1; i <= 10; i++){
+            resultado.innerText += valor + " / " + i + "=" + valor / i + "\n"   ;
+        }
+    }
+    function  porcentagem(){
+        var resultado = document.getElementById("resultado");
+        resultado.innerText = "";
+        var numero = document.getElementById("valor");
+        var valor = Number(numero.value);
+        var dez = (valor/100)*10;
+        var vinte = (valor/100)*20;
+        var trinta = (valor/100)*30;
+        var quarenta = (valor/100)*40;
+        var cinquenta = (valor/100)*50;
+        var sessenta = (valor/100)*60;
+        var setenta = (valor/100)*70;
+        var oitenta = (valor/100)*80;
+        var noventa = (valor/100)*90;
+        console.log(dez);
+        resultado.innerText = "10% de " + valor +" = " + dez + "\n";
+        resultado.innerText += "20% de " + valor +" = " + vinte + "\n";
+        resultado.innerText += "30% de " + valor +" = " + trinta + "\n";
+        resultado.innerText += "40% de " + valor +" = " + quarenta + "\n";
+        resultado.innerText += "50% de " + valor +" = " + cinquenta + "\n";
+        resultado.innerText += "60% de " + valor +" = " + sessenta + "\n";
+        resultado.innerText += "70% de " + valor +" = " + setenta + "\n";
+        resultado.innerText += "80% de " + valor +" = " + oitenta + "\n";
+        resultado.innerText += "90% de " + valor +" = " + noventa + "\n";
+
     }
 </script>

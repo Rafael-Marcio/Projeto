@@ -16,7 +16,7 @@ main{
 }
 .box{
     width: 400px;
-    height: 700px;
+    height: 800px;
     display: flex;
     flex-direction: column;
     align-items: center;

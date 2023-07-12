@@ -39,7 +39,7 @@
         var numero = document.getElementById("valor");
         var valor = Number(numero.value);
         for (var i = 1; i <= 10; i++){
-            resultado.innerText += valor + " / " + i + "=" + valor / i + "\n";
+            resultado.innerText += valor + " / " + i + "=" + (valor / i).toFixed(2) + "\n";
         }
     }
     function  porcentagem(){
@@ -47,15 +47,15 @@
         resultado.innerText = "";
         var numero = document.getElementById("valor");
         var valor = Number(numero.value);
-        var dez = (valor/100)*10;
-        var vinte = (valor/100)*20;
-        var trinta = (valor/100)*30;
-        var quarenta = (valor/100)*40;
-        var cinquenta = (valor/100)*50;
-        var sessenta = (valor/100)*60;
-        var setenta = (valor/100)*70;
-        var oitenta = (valor/100)*80;
-        var noventa = (valor/100)*90;
+        var dez = ((valor/100)*10).toFixed(2);
+        var vinte = ((valor/100)*20).toFixed(2);
+        var trinta = ((valor/100)*30).toFixed(2);
+        var quarenta = ((valor/100)*40).toFixed(2);
+        var cinquenta = ((valor/100)*50).toFixed(2);
+        var sessenta = ((valor/100)*60).toFixed(2);
+        var setenta = ((valor/100)*70).toFixed(2);
+        var oitenta = ((valor/100)*80).toFixed(2);
+        var noventa = ((valor/100)*90).toFixed(2);
         console.log(dez);
         resultado.innerText = "10% de " + valor +" = " + dez + "\n";
         resultado.innerText += "20% de " + valor +" = " + vinte + "\n";
@@ -74,7 +74,17 @@
         var numero = document.getElementById("valor");
         var valor = Number(numero.value);
         for (var i = 1; i <= 10; i++){
-            resultado.innerText += valor + " ** " + i + "=" + valor ** i + "\n";
+            resultado.innerText += valor + " ** " + i + "=" + (valor ** i).toFixed(2) + "\n";
+        }
+    }
+    function porcent() {
+        var resultado = document.getElementById("resultado");
+        resultado.innerText = "";
+        var numero = document.getElementById("valor");
+        var valor = Number(numero.value);
+        for (var i = 1; i <= 10; i++){
+            i = i * 10;
+            resultado.innerText += valor + " ** " + i + "=" + (valor ** i).toFixed(2) + "\n";
         }
     }
 </script>

@@ -37,6 +37,10 @@ input{
 button{
     margin: 10px;
     font-size: 20px;
+    opacity: 0.7;
+    cursor: pointer;
+    background-color: orangered;
+    color: white;
 }
 a{
     width: 80px;
@@ -46,5 +50,7 @@ a{
     border: 3px solid black;
     text-align: center;
     border-radius: 10px;
+    opacity: 0.8;
+    cursor: pointer;
     background-color: white;
 }

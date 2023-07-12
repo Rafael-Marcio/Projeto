@@ -16,6 +16,7 @@
         <button onclick="tabuada()">Mostrar Tabuada Multiplicação</button>
         <button onclick="divisao()">Mostrar Tabuada Divisão</button>
         <button onclick="porcentagem()">Mostrar Porcentagens</button>
+        <button onclick="potencia()">Mostrar Potencias</button>
         <span id="resultado"></span>
         <a href="index.html">Voltar</a>
     </div>
@@ -38,7 +39,7 @@
         var numero = document.getElementById("valor");
         var valor = Number(numero.value);
         for (var i = 1; i <= 10; i++){
-            resultado.innerText += valor + " / " + i + "=" + valor / i + "\n"   ;
+            resultado.innerText += valor + " / " + i + "=" + valor / i + "\n";
         }
     }
     function  porcentagem(){
@@ -66,5 +67,14 @@
         resultado.innerText += "80% de " + valor +" = " + oitenta + "\n";
         resultado.innerText += "90% de " + valor +" = " + noventa + "\n";
 
+    }
+    function potencia() {
+        var resultado = document.getElementById("resultado");
+        resultado.innerText = "";
+        var numero = document.getElementById("valor");
+        var valor = Number(numero.value);
+        for (var i = 1; i <= 10; i++){
+            resultado.innerText += valor + " ** " + i + "=" + valor ** i + "\n";
+        }
     }
 </script>

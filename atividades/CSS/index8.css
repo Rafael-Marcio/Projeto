@@ -49,3 +49,9 @@ img{
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
 }
+.caixa{
+    width: 50px;
+    height: 40px;
+    display: flex;
+    margin-right: 290px;
+}

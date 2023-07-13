@@ -1,0 +1,64 @@
+body{
+    width: 100vw;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../images/relogio2.jfif");
+    color: white;
+    margin-top: -150px;
+}
+main{
+    width: 300px;
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+}
+span{
+    width: 100px;
+    height: 300px;
+    font-size: 50px;
+}
+.box{
+    width: 150px;
+    height: 100px;
+    background-color: black;
+    border: 5px solid white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+header{
+    font-size: 40px;
+}
+#milisegundos{
+    width: 300px;
+}
+button{
+    width: 100px;
+    height: 40px;
+    font-size: 30px;
+    margin-top: 30px;
+    background-color: rgba(0, 0, 0, 0.273);
+    color: white;
+    border-radius: 10px;
+    border: 5px solid white;
+    text-align: center;
+    cursor: pointer;
+}
+.box1{
+    width: 100px;
+    height: 150px;
+    background-color: rgba(128, 128, 128, 0.209);
+    margin: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 5px solid white;
+}
+input{
+    width: 100px;
+    height: 50px;
+    font-size: 50px;
+}

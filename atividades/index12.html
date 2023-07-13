@@ -12,15 +12,15 @@
         <div class="caixa">
             <div class="box">
                 <header>Horas</header>
-                <input id="Horas">
+                <input type="number" id="horas">
             </div>
             <div class="box">
                 <header>Minutos</header>
-                <input id="Minutos">
+                <input type="number" id="minutos">
             </div>
             <div class="box">
                 <header>Segundos</header>
-                <input id="Segundos">
+                <input type="number" id="segundos">
             </div>
         </div>
         <div class="caixa">
@@ -38,9 +38,85 @@
             </div>
         </div>
     </main>
-    
+    <button id="btn" onclick="iniciar()">Timer</button>
+    <button id="btn" onclick="limpar()">Reset</button>
 </body>
 </html>
 <script>
     
+    function iniciar(){
+        var horas = document.getElementById("horas").value;
+        var minutos = document.getElementById("minutos").value;
+        var segundos = document.getElementById("segundos").value;
+
+        visorH = document.getElementById("Horas");
+        visorM = document.getElementById("Minutos");
+        visorS = document.getElementById("Segundos");
+
+        contaH = horas;
+        contaM = minutos;
+        contaS = segundos;
+
+        interval = setInterval(contagem,1000);
+
+        function contagem(){
+            if(contaS == 0){
+                if((contaM == 0) && (contaH == 0)){
+                    clearInterval(interval);
+                    return;
+                }else if(contaM > 0){
+                    contaM--;
+                    contaS = 59;
+
+                    if(contaM <=9){
+                        visorM.innerHTML = "0" + contaM;
+                    }else{
+                        visorM.innerHTML = contaM;
+                    }
+                    if(contaS <=9){
+                        visorS.innerHTML = "0" + contaS;
+                    }else{
+                        visorS.innerHTML = contaS;
+                    }
+
+                }else if(contaH > 0){
+                    contaH--;
+                    contaM = 59;
+                    contaS = 59;
+                    
+                    if(contaH <= 9){
+                        visorH.innerHTML = "0" + contaH;
+                    }else{
+                        visorH.innerHTML = contaH;
+                    }
+                    if(contaM <=9){
+                        visorM.innerHTML = "0" + contaM;
+                    }else{
+                        visorM.innerHTML = contaM;
+                    }
+                    if(contaS <=9){
+                        visorS.innerHTML = "0" + contaS;
+                    }else{
+                        visorS.innerHTML = contaS;
+                    }
+                }
+            }else{
+                contaS--;
+                if(contaS <= 9){
+                    visorS.innerHTML = "0" + contaS;
+                }else{
+                    visorS.innerHTML = contaS;
+                }
+            }
+        }
+    }
+    function limpar(){
+            clearInterval(interval);
+            visorH.innerHTML = 0;
+            visorM.innerHTML = 0;
+            visorS.innerHTML = 0;
+            contaH = 0;
+            contaM = 0;
+            contaS = 0;
+        }
 </script>

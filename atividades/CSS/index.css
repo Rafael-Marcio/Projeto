@@ -16,7 +16,7 @@ a{
     margin: 30px;
     color: white;
 }
-div{
+.box{
     width: 300px;
     height: 800px;
     display: flex;
@@ -29,4 +29,7 @@ div{
 .caixa{
     width: 320px;
     height: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

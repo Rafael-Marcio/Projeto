@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="CSS/index11.css">
     <title>Relógio</title>
 </head>
+
 <body>
 
     <header>Cronômetro: </header>
@@ -23,8 +25,13 @@
             <span id="milisegundos">000</span>
         </div>
     </main>
-    
+    <div class="box1">
+        <button id="pause" onclick="pause()">||</button>
+        <button id="pause" onclick="start()">|></button>
+        <button id="reinicio" onclick="reinicio()">|<</button>
+    </div>
 </body>
+
 </html>
 <script>
     var segundos = document.getElementById("segundos");
@@ -33,13 +40,30 @@
     var contador_min = 0;
     var contador_seg = 0;
     var contador_mili = 0;
-    var interval = setInterval(iniciar,10);
-    function iniciar(){
-        if(contador_mili == 99){
-            if(contador_seg == 60){
-                    contador_min = contador_min + 1;
-                    contador_seg = 0;
-                    minutos.innerText = contador_min;
+    function intervalo(){
+        interval = setInterval(iniciar,10);
+    }
+    function start(){
+        intervalo();
+    }
+    function pause(){
+        clearInterval(interval);
+    }
+    function reinicio(){
+        clearInterval(interval);
+        contador_min = 0;
+        contador_seg = 0;
+        contador_mili = 0;
+        minutos.innerText = contador_min;
+        segundos.innerText = contador_seg;
+        milisegundos.innerText = contador_mili;
+    }
+    function iniciar(a) {
+        if (contador_mili == 99) {
+            if (contador_seg == 60) {
+                contador_min = contador_min + 1;
+                contador_seg = 0;
+                minutos.innerText = contador_min;
             }
             contador_mili = 0;
             contador_seg = contador_seg + 1;
@@ -49,5 +73,6 @@
         contador_mili = contador_mili + 1;
         console.log(contador_mili);
         milisegundos.innerText = contador_mili;
+
     }
 </script>

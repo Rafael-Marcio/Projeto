@@ -1,12 +1,12 @@
 body{
-    width: 95vw;
+    width: 100vw;
     height: 95vh;
     background-color: white;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: white;
+    margin: 0;
 }
 div{
     width: 100%;
@@ -22,11 +22,14 @@ header{
 }
 footer{
     font-size: 250%;
+    text-align: center;
 }
 img{
     width: 80%;
     height: 70%;
     margin: 5%;
+    border: 5px solid black;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 a{
     width: 60%;

@@ -2,6 +2,9 @@ body{
     width: 100vw;
     height: 95vw;
     background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 header{
     width: 100%;
@@ -12,12 +15,13 @@ header{
 }
 img{
     width: 100%;
+    max-width: 300px !important;
     height: 50%;
     margin-top: 10%;
 }
-p{
+.texto{
     text-align: justify !important;
-    font-size: 110%;
+    font-size: 150%;
 }
 footer{
     text-align: center;

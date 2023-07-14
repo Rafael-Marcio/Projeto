@@ -1,0 +1,29 @@
+body{
+    width: 95vw;
+    height: 95vw;
+    background-color: white;
+}
+header{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    font-size: 250%;
+}
+img{
+    width: 100%;
+    height: 50%;
+    margin-top: 10%;
+}
+p{
+    text-align: justify !important;
+    font-size: 140%;
+}
+footer{
+    text-align: center;
+    font-size: 260%;
+}
+a{
+    text-decoration: none;
+    color: black;
+}

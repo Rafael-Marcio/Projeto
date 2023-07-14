@@ -12,15 +12,15 @@
         <div class="caixa">
             <div class="box">
                 <header>Horas</header>
-                <input type="number" id="horas">
+                <input type="number" id="horas" placeholder="Horas...">
             </div>
             <div class="box">
                 <header>Minutos</header>
-                <input type="number" id="minutos">
+                <input type="number" id="minutos" placeholder="Minutos..">
             </div>
             <div class="box">
                 <header>Segundos</header>
-                <input type="number" id="segundos">
+                <input type="number" id="segundos" placeholder="Segundos...">
             </div>
         </div>
         <div class="caixa">
@@ -40,6 +40,8 @@
     </main>
     <button id="btn" onclick="iniciar()">Timer</button>
     <button id="btn" onclick="limpar()">Reset</button>
+    <button id="btn" onclick="pause()">Pause</button>
+    <button id="btn" onclick="start()">Start</button>
 </body>
 </html>
 <script>
@@ -112,11 +114,17 @@
     }
     function limpar(){
             clearInterval(interval);
-            visorH.innerHTML = 0;
-            visorM.innerHTML = 0;
-            visorS.innerHTML = 0;
+            visorH.innerHTML = "00";
+            visorM.innerHTML = "00";
+            visorS.innerHTML = "00";
             contaH = 0;
             contaM = 0;
             contaS = 0;
-        }
+    }
+    function pause(){
+        clearInterval(interval);
+    }
+    function start(){
+        interval = setInterval(contagem,1000);
+    }
 </script>

@@ -20,9 +20,10 @@ span{
     width: 100px;
     height: 100%;
     font-size: 50px;
+    text-align: center;
 }
 .box{
-    width: 100%;
+    width: 90%;
     height: 100px;
     background-color: rgba(0, 0, 0, 0.407);
     border: 5px solid white;
@@ -32,13 +33,13 @@ span{
     align-items: center;
 }
 header{
-    font-size: 40px;
+    font-size: 30px;
 }
 button{
-    width: 30%;
-    height: 9%;
+    width: 33%;
+    height: 40%;
     font-size: 30px;
-    margin-top: 20px;
+    margin: 20px;
     background-color: rgba(0, 0, 0, 0.273);
     color: white;
     border-radius: 10px;

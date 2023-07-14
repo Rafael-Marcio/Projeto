@@ -10,11 +10,12 @@ body{
     background-image: url("../images/nick-nice-gPm8h3DS1s4-unsplash.jpg");
 }
 a{
-    width: 10%;
+    width: 80%;
     height: 10%;
     font-size: 25px;
     color: black;
     color: white;
+    margin-bottom: 5px;
     text-decoration: none;
     text-align: center;
 }
@@ -24,9 +25,9 @@ a{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     padding-right: 20%;
-    background-color: rgba(128, 128, 128, 0.455);
+    background-color: rgba(128, 128, 128, 0.148);
 }
 .caixa{
     width: 80%;
@@ -34,4 +35,7 @@ a{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+#um{
+    margin-left: 50px;
 }

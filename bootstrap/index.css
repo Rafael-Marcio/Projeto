@@ -1,11 +1,7 @@
 .p-3{
     background-color: purple;
     color: white;
-    
 }
 .p-1{
     height: 300px;
-}
-.row{
-    display: flex;
 }

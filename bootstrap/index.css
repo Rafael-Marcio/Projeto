@@ -1,0 +1,16 @@
+.p-3{
+    background-color: purple;
+    color: white;
+}
+.p-1{
+    height: 236px;
+}
+.p-3{
+    border-radius: 20px;
+    text-align: center;
+    border: 5px solid black;
+}
+img{
+    width: 300px;
+    height: 236px;
+}

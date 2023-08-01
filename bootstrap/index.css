@@ -5,3 +5,6 @@
 .p-1{
     height: 300px;
 }
+.elementos{
+    display: flex;
+}

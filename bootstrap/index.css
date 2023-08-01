@@ -8,3 +8,6 @@
 .elementos{
     display: flex;
 }
+img{
+    height: 300px;
+}

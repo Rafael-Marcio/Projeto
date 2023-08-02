@@ -1,12 +1,13 @@
 .p-3{
-    background-color: blue;
-    color: white;
+    background-color: rgba(128, 128, 128, 0);
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }
 .p-1{
     height: 300px;
 }
 .elementos{
     display: flex;
+    border-radius: 20px;
 }
 img{
     height: 300px;

@@ -1,0 +1,34 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(33, 33, 136);
+}
+#resultado{
+    width: 100vw;
+    height: 100vh;
+    background-color: darkgrey;
+}
+footer{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(218, 60, 60);
+}
+.card{
+    width: 500px;
+    height: 500px;
+}
+.card-body{
+    width: 500px;
+    height: 500px;
+    font-size: 30px;
+}
+header{
+    height: 10px;
+    margin-top: 10px;
+}
+form{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

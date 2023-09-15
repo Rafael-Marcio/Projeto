@@ -1,0 +1,11 @@
+C:\Users\968840\Desktop\GItHub_pasta\Projeto\Desktop\DesktopEx4PesoIdeal\bin\Debug\DesktopEx4PesoIdeal.exe.config
+C:\Users\968840\Desktop\GItHub_pasta\Projeto\Desktop\DesktopEx4PesoIdeal\bin\Debug\DesktopEx4PesoIdeal.exe
+C:\Users\968840\Desktop\GItHub_pasta\Projeto\Desktop\DesktopEx4PesoIdeal\bin\Debug\DesktopEx4PesoIdeal.pdb
+C:\Users\968840\Desktop\GItHub_pasta\Projeto\Desktop\DesktopEx4PesoIdeal\obj\Debug\DesktopEx4PesoIdeal.csproj.AssemblyReference.cache
+C:\Users\968840\Desktop\GItHub_pasta\Projeto\Desktop\DesktopEx4PesoIdeal\obj\Debug\DesktopEx4PesoIdeal.csproj.SuggestedBindingRedirects.cache
+C:\Users\968840\Desktop\GItHub_pasta\Projeto\Desktop\DesktopEx4PesoIdeal\obj\Debug\DesktopEx4PesoIdeal.Form1.resources
+C:\Users\968840\Desktop\GItHub_pasta\Projeto\Desktop\DesktopEx4PesoIdeal\obj\Debug\DesktopEx4PesoIdeal.Properties.Resources.resources
+C:\Users\968840\Desktop\GItHub_pasta\Projeto\Desktop\DesktopEx4PesoIdeal\obj\Debug\DesktopEx4PesoIdeal.csproj.GenerateResource.cache
+C:\Users\968840\Desktop\GItHub_pasta\Projeto\Desktop\DesktopEx4PesoIdeal\obj\Debug\DesktopEx4PesoIdeal.csproj.CoreCompileInputs.cache
+C:\Users\968840\Desktop\GItHub_pasta\Projeto\Desktop\DesktopEx4PesoIdeal\obj\Debug\DesktopEx4PesoIdeal.exe
+C:\Users\968840\Desktop\GItHub_pasta\Projeto\Desktop\DesktopEx4PesoIdeal\obj\Debug\DesktopEx4PesoIdeal.pdb

@@ -1,0 +1,11 @@
+C:\Users\968840\Desktop\GItHub_pasta\Projeto\Desktop\DesktopEx3Calculadora\bin\Debug\DesktopEx3Calculadora.exe.config
+C:\Users\968840\Desktop\GItHub_pasta\Projeto\Desktop\DesktopEx3Calculadora\bin\Debug\DesktopEx3Calculadora.exe
+C:\Users\968840\Desktop\GItHub_pasta\Projeto\Desktop\DesktopEx3Calculadora\bin\Debug\DesktopEx3Calculadora.pdb
+C:\Users\968840\Desktop\GItHub_pasta\Projeto\Desktop\DesktopEx3Calculadora\obj\Debug\DesktopEx3Calculadora.csproj.AssemblyReference.cache
+C:\Users\968840\Desktop\GItHub_pasta\Projeto\Desktop\DesktopEx3Calculadora\obj\Debug\DesktopEx3Calculadora.csproj.SuggestedBindingRedirects.cache
+C:\Users\968840\Desktop\GItHub_pasta\Projeto\Desktop\DesktopEx3Calculadora\obj\Debug\DesktopEx3Calculadora.Form1.resources
+C:\Users\968840\Desktop\GItHub_pasta\Projeto\Desktop\DesktopEx3Calculadora\obj\Debug\DesktopEx3Calculadora.Properties.Resources.resources
+C:\Users\968840\Desktop\GItHub_pasta\Projeto\Desktop\DesktopEx3Calculadora\obj\Debug\DesktopEx3Calculadora.csproj.GenerateResource.cache
+C:\Users\968840\Desktop\GItHub_pasta\Projeto\Desktop\DesktopEx3Calculadora\obj\Debug\DesktopEx3Calculadora.csproj.CoreCompileInputs.cache
+C:\Users\968840\Desktop\GItHub_pasta\Projeto\Desktop\DesktopEx3Calculadora\obj\Debug\DesktopEx3Calculadora.exe
+C:\Users\968840\Desktop\GItHub_pasta\Projeto\Desktop\DesktopEx3Calculadora\obj\Debug\DesktopEx3Calculadora.pdb

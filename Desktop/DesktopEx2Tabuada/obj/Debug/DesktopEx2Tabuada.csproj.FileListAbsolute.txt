@@ -1,0 +1,11 @@
+C:\Users\968840\Desktop\GItHub_pasta\Projeto\Desktop\DesktopEx2Tabuada\bin\Debug\DesktopEx2Tabuada.exe.config
+C:\Users\968840\Desktop\GItHub_pasta\Projeto\Desktop\DesktopEx2Tabuada\bin\Debug\DesktopEx2Tabuada.exe
+C:\Users\968840\Desktop\GItHub_pasta\Projeto\Desktop\DesktopEx2Tabuada\bin\Debug\DesktopEx2Tabuada.pdb
+C:\Users\968840\Desktop\GItHub_pasta\Projeto\Desktop\DesktopEx2Tabuada\obj\Debug\DesktopEx2Tabuada.csproj.AssemblyReference.cache
+C:\Users\968840\Desktop\GItHub_pasta\Projeto\Desktop\DesktopEx2Tabuada\obj\Debug\DesktopEx2Tabuada.csproj.SuggestedBindingRedirects.cache
+C:\Users\968840\Desktop\GItHub_pasta\Projeto\Desktop\DesktopEx2Tabuada\obj\Debug\DesktopEx2Tabuada.Form1.resources
+C:\Users\968840\Desktop\GItHub_pasta\Projeto\Desktop\DesktopEx2Tabuada\obj\Debug\DesktopEx2Tabuada.Properties.Resources.resources
+C:\Users\968840\Desktop\GItHub_pasta\Projeto\Desktop\DesktopEx2Tabuada\obj\Debug\DesktopEx2Tabuada.csproj.GenerateResource.cache
+C:\Users\968840\Desktop\GItHub_pasta\Projeto\Desktop\DesktopEx2Tabuada\obj\Debug\DesktopEx2Tabuada.csproj.CoreCompileInputs.cache
+C:\Users\968840\Desktop\GItHub_pasta\Projeto\Desktop\DesktopEx2Tabuada\obj\Debug\DesktopEx2Tabuada.exe
+C:\Users\968840\Desktop\GItHub_pasta\Projeto\Desktop\DesktopEx2Tabuada\obj\Debug\DesktopEx2Tabuada.pdb

@@ -1,0 +1,15 @@
+C:\Users\968840\Desktop\GItHub_pasta\Projeto\Desktop\OrientadaObjetoEx3\bin\Debug\net6.0\OrientadaObjetoEx3.exe
+C:\Users\968840\Desktop\GItHub_pasta\Projeto\Desktop\OrientadaObjetoEx3\bin\Debug\net6.0\OrientadaObjetoEx3.deps.json
+C:\Users\968840\Desktop\GItHub_pasta\Projeto\Desktop\OrientadaObjetoEx3\bin\Debug\net6.0\OrientadaObjetoEx3.runtimeconfig.json
+C:\Users\968840\Desktop\GItHub_pasta\Projeto\Desktop\OrientadaObjetoEx3\bin\Debug\net6.0\OrientadaObjetoEx3.dll
+C:\Users\968840\Desktop\GItHub_pasta\Projeto\Desktop\OrientadaObjetoEx3\bin\Debug\net6.0\OrientadaObjetoEx3.pdb
+C:\Users\968840\Desktop\GItHub_pasta\Projeto\Desktop\OrientadaObjetoEx3\obj\Debug\net6.0\OrientadaObjetoEx3.csproj.AssemblyReference.cache
+C:\Users\968840\Desktop\GItHub_pasta\Projeto\Desktop\OrientadaObjetoEx3\obj\Debug\net6.0\OrientadaObjetoEx3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\968840\Desktop\GItHub_pasta\Projeto\Desktop\OrientadaObjetoEx3\obj\Debug\net6.0\OrientadaObjetoEx3.AssemblyInfoInputs.cache
+C:\Users\968840\Desktop\GItHub_pasta\Projeto\Desktop\OrientadaObjetoEx3\obj\Debug\net6.0\OrientadaObjetoEx3.AssemblyInfo.cs
+C:\Users\968840\Desktop\GItHub_pasta\Projeto\Desktop\OrientadaObjetoEx3\obj\Debug\net6.0\OrientadaObjetoEx3.csproj.CoreCompileInputs.cache
+C:\Users\968840\Desktop\GItHub_pasta\Projeto\Desktop\OrientadaObjetoEx3\obj\Debug\net6.0\OrientadaObjetoEx3.dll
+C:\Users\968840\Desktop\GItHub_pasta\Projeto\Desktop\OrientadaObjetoEx3\obj\Debug\net6.0\refint\OrientadaObjetoEx3.dll
+C:\Users\968840\Desktop\GItHub_pasta\Projeto\Desktop\OrientadaObjetoEx3\obj\Debug\net6.0\OrientadaObjetoEx3.pdb
+C:\Users\968840\Desktop\GItHub_pasta\Projeto\Desktop\OrientadaObjetoEx3\obj\Debug\net6.0\OrientadaObjetoEx3.genruntimeconfig.cache
+C:\Users\968840\Desktop\GItHub_pasta\Projeto\Desktop\OrientadaObjetoEx3\obj\Debug\net6.0\ref\OrientadaObjetoEx3.dll

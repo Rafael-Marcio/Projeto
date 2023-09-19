@@ -1,0 +1,11 @@
+C:\Users\968840\Desktop\GItHub_pasta\Projeto\Desktop\OrientadaObjetoEx5Desktop\obj\Debug\OrientadaObjetoEx5Desktop.csproj.AssemblyReference.cache
+C:\Users\968840\Desktop\GItHub_pasta\Projeto\Desktop\OrientadaObjetoEx5Desktop\obj\Debug\OrientadaObjetoEx5Desktop.csproj.SuggestedBindingRedirects.cache
+C:\Users\968840\Desktop\GItHub_pasta\Projeto\Desktop\OrientadaObjetoEx5Desktop\obj\Debug\OrientadaObjetoEx5Desktop.Form1.resources
+C:\Users\968840\Desktop\GItHub_pasta\Projeto\Desktop\OrientadaObjetoEx5Desktop\obj\Debug\OrientadaObjetoEx5Desktop.Properties.Resources.resources
+C:\Users\968840\Desktop\GItHub_pasta\Projeto\Desktop\OrientadaObjetoEx5Desktop\obj\Debug\OrientadaObjetoEx5Desktop.csproj.GenerateResource.cache
+C:\Users\968840\Desktop\GItHub_pasta\Projeto\Desktop\OrientadaObjetoEx5Desktop\obj\Debug\OrientadaObjetoEx5Desktop.csproj.CoreCompileInputs.cache
+C:\Users\968840\Desktop\GItHub_pasta\Projeto\Desktop\OrientadaObjetoEx5Desktop\bin\Debug\OrientadaObjetoEx5Desktop.exe.config
+C:\Users\968840\Desktop\GItHub_pasta\Projeto\Desktop\OrientadaObjetoEx5Desktop\bin\Debug\OrientadaObjetoEx5Desktop.exe
+C:\Users\968840\Desktop\GItHub_pasta\Projeto\Desktop\OrientadaObjetoEx5Desktop\bin\Debug\OrientadaObjetoEx5Desktop.pdb
+C:\Users\968840\Desktop\GItHub_pasta\Projeto\Desktop\OrientadaObjetoEx5Desktop\obj\Debug\OrientadaObjetoEx5Desktop.exe
+C:\Users\968840\Desktop\GItHub_pasta\Projeto\Desktop\OrientadaObjetoEx5Desktop\obj\Debug\OrientadaObjetoEx5Desktop.pdb

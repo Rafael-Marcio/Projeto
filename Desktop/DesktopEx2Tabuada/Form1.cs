@@ -24,6 +24,7 @@ namespace DesktopEx2Tabuada
 
         private void button1_Click(object sender, EventArgs e)
         {
+            lblResposta.Text = "";
             for (int i = 1; i < 11; i++)
             {
                 int num = int.Parse(number.Text);

@@ -7,13 +7,23 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OrientadaObjetoEx1", "Orien
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OrientadaObjetoEx2", "..\OrientadaObjetoEx2\OrientadaObjetoEx2.csproj", "{7D8E3D62-760F-4C1F-95CF-1ACF28E1576D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrientadaObjetoEx3", "..\OrientadaObjetoEx3\OrientadaObjetoEx3.csproj", "{90F6B0F8-78B3-4FAE-834F-9F136543AF4F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OrientadaObjetoEx3", "..\OrientadaObjetoEx3\OrientadaObjetoEx3.csproj", "{90F6B0F8-78B3-4FAE-834F-9F136543AF4F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrientadaObjetoEx4", "..\OrientadaObjetoEx4\OrientadaObjetoEx4.csproj", "{E32B857A-B0ED-42F6-A9E3-5DDD341DE691}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OrientadaObjetoEx4", "..\OrientadaObjetoEx4\OrientadaObjetoEx4.csproj", "{E32B857A-B0ED-42F6-A9E3-5DDD341DE691}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrientadaObjetoEx5", "..\OrientadaObjetoEx5\OrientadaObjetoEx5.csproj", "{868D79CC-9144-4B07-A9EA-F250D7273A20}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OrientadaObjetoEx5", "..\OrientadaObjetoEx5\OrientadaObjetoEx5.csproj", "{868D79CC-9144-4B07-A9EA-F250D7273A20}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrientadaObjetoEx5Desktop", "..\OrientadaObjetoEx5Desktop\OrientadaObjetoEx5Desktop.csproj", "{900BB4C9-5F4A-4C2F-BBF9-EBB9FB12839C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OrientadaObjetoEx6", "..\OrientadaObjetoEx6\OrientadaObjetoEx6.csproj", "{5859609E-3D58-4984-B775-CC2774F7D4D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrientadaObjetoEx3Desktop", "..\OrientadaObjetoEx3Desktop\OrientadaObjetoEx3Desktop.csproj", "{C89AFF29-3F81-4E00-8A27-2434F09C4EDF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrientadaObjetoEx4Desktop", "..\OrientadaObjetoEx2Desktop\OrientadaObjetoEx4Desktop.csproj", "{1235EB60-1810-4F97-A855-6C6DC5680B54}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrientadaObjetoEx6Desktop", "..\OrientadaObjetoEx6Desktop\OrientadaObjetoEx6Desktop.csproj", "{FA5450AF-29C6-4D3F-9F3E-3CAB5F2F0129}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrientadaObjetoDesktopEx15Carros", "..\OrientadaObjetoDesktopEx15Carros\OrientadaObjetoDesktopEx15Carros.csproj", "{788E458E-CEA2-4762-9C6D-DD0A1D26E3A4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +55,26 @@ Global
 		{900BB4C9-5F4A-4C2F-BBF9-EBB9FB12839C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{900BB4C9-5F4A-4C2F-BBF9-EBB9FB12839C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{900BB4C9-5F4A-4C2F-BBF9-EBB9FB12839C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5859609E-3D58-4984-B775-CC2774F7D4D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5859609E-3D58-4984-B775-CC2774F7D4D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5859609E-3D58-4984-B775-CC2774F7D4D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5859609E-3D58-4984-B775-CC2774F7D4D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C89AFF29-3F81-4E00-8A27-2434F09C4EDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C89AFF29-3F81-4E00-8A27-2434F09C4EDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C89AFF29-3F81-4E00-8A27-2434F09C4EDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C89AFF29-3F81-4E00-8A27-2434F09C4EDF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1235EB60-1810-4F97-A855-6C6DC5680B54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1235EB60-1810-4F97-A855-6C6DC5680B54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1235EB60-1810-4F97-A855-6C6DC5680B54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1235EB60-1810-4F97-A855-6C6DC5680B54}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA5450AF-29C6-4D3F-9F3E-3CAB5F2F0129}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA5450AF-29C6-4D3F-9F3E-3CAB5F2F0129}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA5450AF-29C6-4D3F-9F3E-3CAB5F2F0129}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA5450AF-29C6-4D3F-9F3E-3CAB5F2F0129}.Release|Any CPU.Build.0 = Release|Any CPU
+		{788E458E-CEA2-4762-9C6D-DD0A1D26E3A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{788E458E-CEA2-4762-9C6D-DD0A1D26E3A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{788E458E-CEA2-4762-9C6D-DD0A1D26E3A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{788E458E-CEA2-4762-9C6D-DD0A1D26E3A4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

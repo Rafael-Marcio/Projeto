@@ -15,16 +15,18 @@ namespace OrientadaObjetoEx5Desktop
         class Triangulo
         {
             public double lados1;
-            public double lados2;
             public double lados3;
-            public double alt;
 
             //Método
 
             public double area()
             {
 
-                return lados3 * alt / 2;
+                return lados3 * lados1 / 2;
+            }
+            public string limpar()
+            {
+                return "";
             }
         }
         public Form1()
@@ -42,11 +44,26 @@ namespace OrientadaObjetoEx5Desktop
             Triangulo triangulo = new Triangulo();
 
             triangulo.lados1 = double.Parse(lado1.Text);
-            triangulo.lados2 = double.Parse(lado2.Text);
             triangulo.lados3 = double.Parse(lado3.Text);
-            triangulo.alt = (triangulo.lados1 + triangulo.lados2 + triangulo.lados3) / 2;
             double resp =  triangulo.area();
             lblResposta.Text = $"A área é: {resp}";
+
+        }
+
+        private void lado1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void limpar_Click(object sender, EventArgs e)
+        {
+            Triangulo triangulo = new Triangulo();
+
+            lblResposta.Text = triangulo.limpar();
+        }
+
+        private void groupBox1_Enter(object sender, EventArgs e)
+        {
 
         }
     }

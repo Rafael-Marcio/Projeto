@@ -1,0 +1,11 @@
+C:\Users\968840\Desktop\GItHub_pasta\Projeto\Desktop\UC5AplicaçõesDesktop\AgendaDesktopBancoDados\bin\Debug\AgendaDesktopBancoDados.exe.config
+C:\Users\968840\Desktop\GItHub_pasta\Projeto\Desktop\UC5AplicaçõesDesktop\AgendaDesktopBancoDados\bin\Debug\AgendaDesktopBancoDados.exe
+C:\Users\968840\Desktop\GItHub_pasta\Projeto\Desktop\UC5AplicaçõesDesktop\AgendaDesktopBancoDados\bin\Debug\AgendaDesktopBancoDados.pdb
+C:\Users\968840\Desktop\GItHub_pasta\Projeto\Desktop\UC5AplicaçõesDesktop\AgendaDesktopBancoDados\obj\Debug\AgendaDesktopBancoDados.csproj.AssemblyReference.cache
+C:\Users\968840\Desktop\GItHub_pasta\Projeto\Desktop\UC5AplicaçõesDesktop\AgendaDesktopBancoDados\obj\Debug\AgendaDesktopBancoDados.csproj.SuggestedBindingRedirects.cache
+C:\Users\968840\Desktop\GItHub_pasta\Projeto\Desktop\UC5AplicaçõesDesktop\AgendaDesktopBancoDados\obj\Debug\AgendaDesktopBancoDados.Form1.resources
+C:\Users\968840\Desktop\GItHub_pasta\Projeto\Desktop\UC5AplicaçõesDesktop\AgendaDesktopBancoDados\obj\Debug\AgendaDesktopBancoDados.Properties.Resources.resources
+C:\Users\968840\Desktop\GItHub_pasta\Projeto\Desktop\UC5AplicaçõesDesktop\AgendaDesktopBancoDados\obj\Debug\AgendaDesktopBancoDados.csproj.GenerateResource.cache
+C:\Users\968840\Desktop\GItHub_pasta\Projeto\Desktop\UC5AplicaçõesDesktop\AgendaDesktopBancoDados\obj\Debug\AgendaDesktopBancoDados.csproj.CoreCompileInputs.cache
+C:\Users\968840\Desktop\GItHub_pasta\Projeto\Desktop\UC5AplicaçõesDesktop\AgendaDesktopBancoDados\obj\Debug\AgendaDesktopBancoDados.exe
+C:\Users\968840\Desktop\GItHub_pasta\Projeto\Desktop\UC5AplicaçõesDesktop\AgendaDesktopBancoDados\obj\Debug\AgendaDesktopBancoDados.pdb

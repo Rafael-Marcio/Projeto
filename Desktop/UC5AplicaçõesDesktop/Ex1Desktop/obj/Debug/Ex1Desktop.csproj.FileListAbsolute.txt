@@ -1,0 +1,6 @@
+C:\Users\968840\Desktop\GItHub_pasta\Projeto\Desktop\UC5AplicaçõesDesktop\Ex1Desktop\obj\Debug\Ex1Desktop.csproj.AssemblyReference.cache
+C:\Users\968840\Desktop\GItHub_pasta\Projeto\Desktop\UC5AplicaçõesDesktop\Ex1Desktop\obj\Debug\Ex1Desktop.csproj.SuggestedBindingRedirects.cache
+C:\Users\968840\Desktop\GItHub_pasta\Projeto\Desktop\UC5AplicaçõesDesktop\Ex1Desktop\obj\Debug\Ex1Desktop.Form1.resources
+C:\Users\968840\Desktop\GItHub_pasta\Projeto\Desktop\UC5AplicaçõesDesktop\Ex1Desktop\obj\Debug\Ex1Desktop.Properties.Resources.resources
+C:\Users\968840\Desktop\GItHub_pasta\Projeto\Desktop\UC5AplicaçõesDesktop\Ex1Desktop\obj\Debug\Ex1Desktop.csproj.GenerateResource.cache
+C:\Users\968840\Desktop\GItHub_pasta\Projeto\Desktop\UC5AplicaçõesDesktop\Ex1Desktop\obj\Debug\Ex1Desktop.csproj.CoreCompileInputs.cache

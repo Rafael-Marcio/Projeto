@@ -1,0 +1,11 @@
+C:\Users\968840\Desktop\GItHub_pasta\Projeto\Desktop\OrientadaObjetoEx14Retângulo\bin\Debug\OrientadaObjetoEx14Retângulo.exe.config
+C:\Users\968840\Desktop\GItHub_pasta\Projeto\Desktop\OrientadaObjetoEx14Retângulo\bin\Debug\OrientadaObjetoEx14Retângulo.exe
+C:\Users\968840\Desktop\GItHub_pasta\Projeto\Desktop\OrientadaObjetoEx14Retângulo\bin\Debug\OrientadaObjetoEx14Retângulo.pdb
+C:\Users\968840\Desktop\GItHub_pasta\Projeto\Desktop\OrientadaObjetoEx14Retângulo\obj\Debug\OrientadaObjetoEx14Retângulo.csproj.AssemblyReference.cache
+C:\Users\968840\Desktop\GItHub_pasta\Projeto\Desktop\OrientadaObjetoEx14Retângulo\obj\Debug\OrientadaObjetoEx14Retângulo.csproj.SuggestedBindingRedirects.cache
+C:\Users\968840\Desktop\GItHub_pasta\Projeto\Desktop\OrientadaObjetoEx14Retângulo\obj\Debug\OrientadaObjetoEx14Retângulo.Form1.resources
+C:\Users\968840\Desktop\GItHub_pasta\Projeto\Desktop\OrientadaObjetoEx14Retângulo\obj\Debug\OrientadaObjetoEx14Retângulo.Properties.Resources.resources
+C:\Users\968840\Desktop\GItHub_pasta\Projeto\Desktop\OrientadaObjetoEx14Retângulo\obj\Debug\OrientadaObjetoEx14Retângulo.csproj.GenerateResource.cache
+C:\Users\968840\Desktop\GItHub_pasta\Projeto\Desktop\OrientadaObjetoEx14Retângulo\obj\Debug\OrientadaObjetoEx14Retângulo.csproj.CoreCompileInputs.cache
+C:\Users\968840\Desktop\GItHub_pasta\Projeto\Desktop\OrientadaObjetoEx14Retângulo\obj\Debug\OrientadaObjetoEx14Retângulo.exe
+C:\Users\968840\Desktop\GItHub_pasta\Projeto\Desktop\OrientadaObjetoEx14Retângulo\obj\Debug\OrientadaObjetoEx14Retângulo.pdb

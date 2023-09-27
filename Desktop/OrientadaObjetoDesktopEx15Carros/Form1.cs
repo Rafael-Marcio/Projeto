@@ -38,7 +38,7 @@ namespace OrientadaObjetoDesktopEx15Carros
             }
             public string Informações()
             {
-                return $"Marca: {marcas}\nModelo: {modelos} \nAno: {anos} ";
+                return $"Marca: {marcas}\nModelo: {modelos} \nAno: {anos} ".ToString();
             }
         }
         Carro carro = new Carro();
@@ -60,10 +60,19 @@ namespace OrientadaObjetoDesktopEx15Carros
         {
             carro.marcas = marca.Text;
             carro.modelos = modelo.Text;
-            carro.anos = int.Parse(ano.Text);
-            lblRespostaInformacoes.Text = carro.Ligar();
-            lblRespostaVelocidade.Text = "0 Km/h";
-            lblRespostaCarro.Text = carro.Informações();
+            if (marca.Text == "" || modelo.Text == "")
+            {
+                MessageBox.Show("Informações Inválidas!");
+            }
+            else
+            {
+                carro.anos = int.Parse(ano.Text);
+                lblRespostaInformacoes.Text = carro.Ligar();
+                lblRespostaVelocidade.Text = "0 Km/h";
+                lblRespostaCarro.Text = carro.Informações();
+                MessageBox.Show("O carro ligou...");
+            }
+            
         }
 
         private void desligar_Click(object sender, EventArgs e)
@@ -74,6 +83,7 @@ namespace OrientadaObjetoDesktopEx15Carros
             lblRespostaInformacoes.Text = carro.Desligar();
             lblRespostaVelocidade.Text = "0 Km/h";
             lblRespostaCarro.Text = carro.Informações();
+            MessageBox.Show("O carro desligou...");
 
         }
 

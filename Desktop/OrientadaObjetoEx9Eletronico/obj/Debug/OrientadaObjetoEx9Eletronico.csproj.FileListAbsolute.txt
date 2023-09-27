@@ -1,0 +1,11 @@
+C:\Users\968840\Desktop\GItHub_pasta\Projeto\Desktop\OrientadaObjetoEx9Eletronico\bin\Debug\OrientadaObjetoEx9Eletronico.exe.config
+C:\Users\968840\Desktop\GItHub_pasta\Projeto\Desktop\OrientadaObjetoEx9Eletronico\bin\Debug\OrientadaObjetoEx9Eletronico.exe
+C:\Users\968840\Desktop\GItHub_pasta\Projeto\Desktop\OrientadaObjetoEx9Eletronico\bin\Debug\OrientadaObjetoEx9Eletronico.pdb
+C:\Users\968840\Desktop\GItHub_pasta\Projeto\Desktop\OrientadaObjetoEx9Eletronico\obj\Debug\OrientadaObjetoEx9Eletronico.csproj.AssemblyReference.cache
+C:\Users\968840\Desktop\GItHub_pasta\Projeto\Desktop\OrientadaObjetoEx9Eletronico\obj\Debug\OrientadaObjetoEx9Eletronico.csproj.SuggestedBindingRedirects.cache
+C:\Users\968840\Desktop\GItHub_pasta\Projeto\Desktop\OrientadaObjetoEx9Eletronico\obj\Debug\OrientadaObjetoEx9Eletronico.Form1.resources
+C:\Users\968840\Desktop\GItHub_pasta\Projeto\Desktop\OrientadaObjetoEx9Eletronico\obj\Debug\OrientadaObjetoEx9Eletronico.Properties.Resources.resources
+C:\Users\968840\Desktop\GItHub_pasta\Projeto\Desktop\OrientadaObjetoEx9Eletronico\obj\Debug\OrientadaObjetoEx9Eletronico.csproj.GenerateResource.cache
+C:\Users\968840\Desktop\GItHub_pasta\Projeto\Desktop\OrientadaObjetoEx9Eletronico\obj\Debug\OrientadaObjetoEx9Eletronico.csproj.CoreCompileInputs.cache
+C:\Users\968840\Desktop\GItHub_pasta\Projeto\Desktop\OrientadaObjetoEx9Eletronico\obj\Debug\OrientadaObjetoEx9Eletronico.exe
+C:\Users\968840\Desktop\GItHub_pasta\Projeto\Desktop\OrientadaObjetoEx9Eletronico\obj\Debug\OrientadaObjetoEx9Eletronico.pdb

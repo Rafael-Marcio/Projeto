@@ -1,0 +1,17 @@
+D:\Users\967338\source\repos\ex1\ex2\bin\Debug\net6.0-windows\ex2.exe
+D:\Users\967338\source\repos\ex1\ex2\bin\Debug\net6.0-windows\ex2.deps.json
+D:\Users\967338\source\repos\ex1\ex2\bin\Debug\net6.0-windows\ex2.runtimeconfig.json
+D:\Users\967338\source\repos\ex1\ex2\bin\Debug\net6.0-windows\ex2.dll
+D:\Users\967338\source\repos\ex1\ex2\bin\Debug\net6.0-windows\ex2.pdb
+D:\Users\967338\source\repos\ex1\ex2\obj\Debug\net6.0-windows\ex2.csproj.AssemblyReference.cache
+D:\Users\967338\source\repos\ex1\ex2\obj\Debug\net6.0-windows\ex2.Form1.resources
+D:\Users\967338\source\repos\ex1\ex2\obj\Debug\net6.0-windows\ex2.csproj.GenerateResource.cache
+D:\Users\967338\source\repos\ex1\ex2\obj\Debug\net6.0-windows\ex2.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\967338\source\repos\ex1\ex2\obj\Debug\net6.0-windows\ex2.AssemblyInfoInputs.cache
+D:\Users\967338\source\repos\ex1\ex2\obj\Debug\net6.0-windows\ex2.AssemblyInfo.cs
+D:\Users\967338\source\repos\ex1\ex2\obj\Debug\net6.0-windows\ex2.csproj.CoreCompileInputs.cache
+D:\Users\967338\source\repos\ex1\ex2\obj\Debug\net6.0-windows\ex2.dll
+D:\Users\967338\source\repos\ex1\ex2\obj\Debug\net6.0-windows\refint\ex2.dll
+D:\Users\967338\source\repos\ex1\ex2\obj\Debug\net6.0-windows\ex2.pdb
+D:\Users\967338\source\repos\ex1\ex2\obj\Debug\net6.0-windows\ex2.genruntimeconfig.cache
+D:\Users\967338\source\repos\ex1\ex2\obj\Debug\net6.0-windows\ref\ex2.dll

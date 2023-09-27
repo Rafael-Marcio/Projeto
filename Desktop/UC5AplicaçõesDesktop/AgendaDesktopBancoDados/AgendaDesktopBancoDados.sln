@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AgendaDesktopBancoDados", "AgendaDesktopBancoDados.csproj", "{259DBE94-ACC6-4785-9A6D-DF7901CC487A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{259DBE94-ACC6-4785-9A6D-DF7901CC487A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{259DBE94-ACC6-4785-9A6D-DF7901CC487A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{259DBE94-ACC6-4785-9A6D-DF7901CC487A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{259DBE94-ACC6-4785-9A6D-DF7901CC487A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BF4352C7-D61A-4500-A418-4E9D0B8F1024}
+	EndGlobalSection
+EndGlobal

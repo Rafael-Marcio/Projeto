@@ -49,7 +49,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(694, 48);
+            this.label1.Location = new System.Drawing.Point(140, 46);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(120, 37);
             this.label1.TabIndex = 0;
@@ -67,7 +67,7 @@
             this.panel1.Controls.Add(this.label4);
             this.panel1.Controls.Add(this.label3);
             this.panel1.Controls.Add(this.label2);
-            this.panel1.Location = new System.Drawing.Point(598, 106);
+            this.panel1.Location = new System.Drawing.Point(44, 86);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(327, 180);
             this.panel1.TabIndex = 1;
@@ -170,7 +170,7 @@
             // 
             this.lblRespostaInformacoes.AutoSize = true;
             this.lblRespostaInformacoes.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblRespostaInformacoes.Location = new System.Drawing.Point(704, 312);
+            this.lblRespostaInformacoes.Location = new System.Drawing.Point(122, 307);
             this.lblRespostaInformacoes.Name = "lblRespostaInformacoes";
             this.lblRespostaInformacoes.Size = new System.Drawing.Size(0, 33);
             this.lblRespostaInformacoes.TabIndex = 2;
@@ -179,7 +179,7 @@
             // 
             this.lblRespostaVelocidade.AutoSize = true;
             this.lblRespostaVelocidade.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblRespostaVelocidade.Location = new System.Drawing.Point(695, 362);
+            this.lblRespostaVelocidade.Location = new System.Drawing.Point(101, 350);
             this.lblRespostaVelocidade.Name = "lblRespostaVelocidade";
             this.lblRespostaVelocidade.Size = new System.Drawing.Size(159, 33);
             this.lblRespostaVelocidade.TabIndex = 3;
@@ -189,7 +189,7 @@
             // 
             this.lblRespostaCarro.AutoSize = true;
             this.lblRespostaCarro.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblRespostaCarro.Location = new System.Drawing.Point(628, 395);
+            this.lblRespostaCarro.Location = new System.Drawing.Point(60, 397);
             this.lblRespostaCarro.Name = "lblRespostaCarro";
             this.lblRespostaCarro.Size = new System.Drawing.Size(297, 33);
             this.lblRespostaCarro.TabIndex = 4;
@@ -200,7 +200,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.SandyBrown;
-            this.ClientSize = new System.Drawing.Size(1452, 569);
+            this.ClientSize = new System.Drawing.Size(414, 489);
             this.Controls.Add(this.lblRespostaCarro);
             this.Controls.Add(this.lblRespostaVelocidade);
             this.Controls.Add(this.lblRespostaInformacoes);

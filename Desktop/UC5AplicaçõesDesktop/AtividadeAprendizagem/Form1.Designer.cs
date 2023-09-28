@@ -38,11 +38,10 @@
             this.txtPreco = new System.Windows.Forms.TextBox();
             this.Gravar = new System.Windows.Forms.Button();
             this.LerDados = new System.Windows.Forms.Button();
-            this.panel3 = new System.Windows.Forms.Panel();
-            this.label4 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
-            this.panel3.SuspendLayout();
             this.SuspendLayout();
             // 
             // label1
@@ -69,13 +68,15 @@
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.Transparent;
+            this.panel2.Controls.Add(this.button2);
+            this.panel2.Controls.Add(this.button1);
             this.panel2.Controls.Add(this.LerDados);
             this.panel2.Controls.Add(this.Gravar);
             this.panel2.Controls.Add(this.txtPreco);
             this.panel2.Controls.Add(this.txtProduto);
             this.panel2.Controls.Add(this.label3);
             this.panel2.Controls.Add(this.label2);
-            this.panel2.Location = new System.Drawing.Point(43, 84);
+            this.panel2.Location = new System.Drawing.Point(241, 87);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(304, 340);
             this.panel2.TabIndex = 2;
@@ -95,12 +96,13 @@
             // 
             this.label3.Font = new System.Drawing.Font("Script MT Bold", 21.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.DarkGreen;
-            this.label3.Location = new System.Drawing.Point(3, 110);
+            this.label3.Location = new System.Drawing.Point(3, 85);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(106, 63);
             this.label3.TabIndex = 2;
             this.label3.Text = "Preço:";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // txtProduto
             // 
@@ -113,7 +115,7 @@
             // txtPreco
             // 
             this.txtPreco.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtPreco.Location = new System.Drawing.Point(140, 122);
+            this.txtPreco.Location = new System.Drawing.Point(140, 98);
             this.txtPreco.Name = "txtPreco";
             this.txtPreco.Size = new System.Drawing.Size(149, 38);
             this.txtPreco.TabIndex = 4;
@@ -122,7 +124,7 @@
             // 
             this.Gravar.BackColor = System.Drawing.Color.DarkGreen;
             this.Gravar.Font = new System.Drawing.Font("Script MT Bold", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Gravar.Location = new System.Drawing.Point(37, 208);
+            this.Gravar.Location = new System.Drawing.Point(71, 218);
             this.Gravar.Name = "Gravar";
             this.Gravar.Size = new System.Drawing.Size(230, 52);
             this.Gravar.TabIndex = 5;
@@ -134,7 +136,7 @@
             // 
             this.LerDados.BackColor = System.Drawing.Color.DarkGreen;
             this.LerDados.Font = new System.Drawing.Font("Script MT Bold", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LerDados.Location = new System.Drawing.Point(37, 277);
+            this.LerDados.Location = new System.Drawing.Point(71, 285);
             this.LerDados.Name = "LerDados";
             this.LerDados.Size = new System.Drawing.Size(230, 52);
             this.LerDados.TabIndex = 6;
@@ -142,25 +144,29 @@
             this.LerDados.UseVisualStyleBackColor = false;
             this.LerDados.Click += new System.EventHandler(this.LerDados_Click);
             // 
-            // panel3
+            // button1
             // 
-            this.panel3.BackColor = System.Drawing.Color.Transparent;
-            this.panel3.Controls.Add(this.label4);
-            this.panel3.Location = new System.Drawing.Point(441, 84);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(312, 340);
-            this.panel3.TabIndex = 3;
+            this.button1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button1.BackgroundImage")));
+            this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.button1.FlatAppearance.BorderSize = 0;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Location = new System.Drawing.Point(9, 218);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(56, 52);
+            this.button1.TabIndex = 7;
+            this.button1.UseVisualStyleBackColor = true;
             // 
-            // label4
+            // button2
             // 
-            this.label4.Font = new System.Drawing.Font("Script MT Bold", 24F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.ForeColor = System.Drawing.Color.DarkGreen;
-            this.label4.Location = new System.Drawing.Point(16, 4);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(282, 38);
-            this.label4.TabIndex = 0;
-            this.label4.Text = "Dados Gravando";
-            this.label4.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.button2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button2.BackgroundImage")));
+            this.button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.button2.FlatAppearance.BorderSize = 0;
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button2.Location = new System.Drawing.Point(9, 285);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(56, 52);
+            this.button2.TabIndex = 8;
+            this.button2.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
@@ -169,7 +175,6 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Name = "Form1";
@@ -177,7 +182,6 @@
             this.panel1.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
-            this.panel3.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -193,8 +197,8 @@
         private System.Windows.Forms.TextBox txtProduto;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Panel panel3;
-        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button button1;
     }
 }
 

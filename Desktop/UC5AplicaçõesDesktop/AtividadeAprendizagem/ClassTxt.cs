@@ -20,7 +20,7 @@ namespace AtividadeAprendizagem
         {
             StreamWriter banco;
             banco = File.AppendText(way);
-            banco.WriteLine($"{product}: R${price} | {dataAtual}");
+            banco.WriteLine($"{product}: R${price} | {dataAtual}\n");
             banco.Close();
         }
         public String ReadArchive()

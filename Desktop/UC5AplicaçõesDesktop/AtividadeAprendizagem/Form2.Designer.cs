@@ -40,16 +40,16 @@
             this.pnlResposta.BackColor = System.Drawing.Color.Transparent;
             this.pnlResposta.Controls.Add(this.billofSale);
             this.pnlResposta.Controls.Add(this.label4);
-            this.pnlResposta.Location = new System.Drawing.Point(188, 12);
+            this.pnlResposta.Location = new System.Drawing.Point(28, 25);
             this.pnlResposta.Name = "pnlResposta";
-            this.pnlResposta.Size = new System.Drawing.Size(415, 413);
+            this.pnlResposta.Size = new System.Drawing.Size(435, 413);
             this.pnlResposta.TabIndex = 4;
             // 
             // label4
             // 
             this.label4.Font = new System.Drawing.Font("Script MT Bold", 24F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.ForeColor = System.Drawing.Color.DarkGreen;
-            this.label4.Location = new System.Drawing.Point(68, 10);
+            this.label4.ForeColor = System.Drawing.Color.White;
+            this.label4.Location = new System.Drawing.Point(77, 27);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(282, 38);
             this.label4.TabIndex = 0;
@@ -58,11 +58,13 @@
             // 
             // billofSale
             // 
+            this.billofSale.BackColor = System.Drawing.Color.Bisque;
             this.billofSale.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.billofSale.ForeColor = System.Drawing.Color.Black;
             this.billofSale.ImageAlign = System.Drawing.ContentAlignment.BottomRight;
             this.billofSale.Location = new System.Drawing.Point(34, 80);
             this.billofSale.Name = "billofSale";
-            this.billofSale.Size = new System.Drawing.Size(342, 313);
+            this.billofSale.Size = new System.Drawing.Size(368, 313);
             this.billofSale.TabIndex = 1;
             this.billofSale.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
@@ -72,7 +74,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(490, 450);
             this.Controls.Add(this.pnlResposta);
             this.Name = "Form2";
             this.Text = "Form2";

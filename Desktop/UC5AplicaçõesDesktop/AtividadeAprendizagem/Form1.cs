@@ -31,12 +31,18 @@ namespace AtividadeAprendizagem
             classTxt.price = double.Parse(txtPreco.Text);
             classTxt.dataAtual = classData.dataAtual;
             classTxt.Save();
+            MessageBox.Show("Produto Gravado!", "Gravado", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 
         private void LerDados_Click(object sender, EventArgs e)
         {
             Form2 form2 = new Form2();
             form2.Show();
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

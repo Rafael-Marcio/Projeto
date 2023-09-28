@@ -1,0 +1,12 @@
+C:\Users\968840\Desktop\GItHub_pasta\Projeto\Desktop\UC5AplicaçõesDesktop\AtividadeAprendizagem\bin\Debug\AtividadeAprendizagem.exe.config
+C:\Users\968840\Desktop\GItHub_pasta\Projeto\Desktop\UC5AplicaçõesDesktop\AtividadeAprendizagem\bin\Debug\AtividadeAprendizagem.exe
+C:\Users\968840\Desktop\GItHub_pasta\Projeto\Desktop\UC5AplicaçõesDesktop\AtividadeAprendizagem\bin\Debug\AtividadeAprendizagem.pdb
+C:\Users\968840\Desktop\GItHub_pasta\Projeto\Desktop\UC5AplicaçõesDesktop\AtividadeAprendizagem\obj\Debug\AtividadeAprendizagem.csproj.AssemblyReference.cache
+C:\Users\968840\Desktop\GItHub_pasta\Projeto\Desktop\UC5AplicaçõesDesktop\AtividadeAprendizagem\obj\Debug\AtividadeAprendizagem.csproj.SuggestedBindingRedirects.cache
+C:\Users\968840\Desktop\GItHub_pasta\Projeto\Desktop\UC5AplicaçõesDesktop\AtividadeAprendizagem\obj\Debug\AtividadeAprendizagem.Form1.resources
+C:\Users\968840\Desktop\GItHub_pasta\Projeto\Desktop\UC5AplicaçõesDesktop\AtividadeAprendizagem\obj\Debug\AtividadeAprendizagem.Properties.Resources.resources
+C:\Users\968840\Desktop\GItHub_pasta\Projeto\Desktop\UC5AplicaçõesDesktop\AtividadeAprendizagem\obj\Debug\AtividadeAprendizagem.csproj.GenerateResource.cache
+C:\Users\968840\Desktop\GItHub_pasta\Projeto\Desktop\UC5AplicaçõesDesktop\AtividadeAprendizagem\obj\Debug\AtividadeAprendizagem.csproj.CoreCompileInputs.cache
+C:\Users\968840\Desktop\GItHub_pasta\Projeto\Desktop\UC5AplicaçõesDesktop\AtividadeAprendizagem\obj\Debug\AtividadeAprendizagem.exe
+C:\Users\968840\Desktop\GItHub_pasta\Projeto\Desktop\UC5AplicaçõesDesktop\AtividadeAprendizagem\obj\Debug\AtividadeAprendizagem.pdb
+C:\Users\968840\Desktop\GItHub_pasta\Projeto\Desktop\UC5AplicaçõesDesktop\AtividadeAprendizagem\obj\Debug\AtividadeAprendizagem.Form2.resources

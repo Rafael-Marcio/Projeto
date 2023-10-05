@@ -1,0 +1,11 @@
+C:\Users\968840\Desktop\GItHub_pasta\Projeto\Desktop\UC5AplicaçõesDesktop\ListBox_Ex1\bin\Debug\ListBox_Ex1.exe.config
+C:\Users\968840\Desktop\GItHub_pasta\Projeto\Desktop\UC5AplicaçõesDesktop\ListBox_Ex1\bin\Debug\ListBox_Ex1.exe
+C:\Users\968840\Desktop\GItHub_pasta\Projeto\Desktop\UC5AplicaçõesDesktop\ListBox_Ex1\bin\Debug\ListBox_Ex1.pdb
+C:\Users\968840\Desktop\GItHub_pasta\Projeto\Desktop\UC5AplicaçõesDesktop\ListBox_Ex1\obj\Debug\ListBox_Ex1.csproj.AssemblyReference.cache
+C:\Users\968840\Desktop\GItHub_pasta\Projeto\Desktop\UC5AplicaçõesDesktop\ListBox_Ex1\obj\Debug\ListBox_Ex1.csproj.SuggestedBindingRedirects.cache
+C:\Users\968840\Desktop\GItHub_pasta\Projeto\Desktop\UC5AplicaçõesDesktop\ListBox_Ex1\obj\Debug\ListBox_Ex1.Form1.resources
+C:\Users\968840\Desktop\GItHub_pasta\Projeto\Desktop\UC5AplicaçõesDesktop\ListBox_Ex1\obj\Debug\ListBox_Ex1.Properties.Resources.resources
+C:\Users\968840\Desktop\GItHub_pasta\Projeto\Desktop\UC5AplicaçõesDesktop\ListBox_Ex1\obj\Debug\ListBox_Ex1.csproj.GenerateResource.cache
+C:\Users\968840\Desktop\GItHub_pasta\Projeto\Desktop\UC5AplicaçõesDesktop\ListBox_Ex1\obj\Debug\ListBox_Ex1.csproj.CoreCompileInputs.cache
+C:\Users\968840\Desktop\GItHub_pasta\Projeto\Desktop\UC5AplicaçõesDesktop\ListBox_Ex1\obj\Debug\ListBox_Ex1.exe
+C:\Users\968840\Desktop\GItHub_pasta\Projeto\Desktop\UC5AplicaçõesDesktop\ListBox_Ex1\obj\Debug\ListBox_Ex1.pdb

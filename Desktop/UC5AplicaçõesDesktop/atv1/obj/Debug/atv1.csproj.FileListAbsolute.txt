@@ -1,0 +1,13 @@
+C:\Users\968840\Desktop\GItHub_pasta\Projeto\Desktop\UC5AplicaçõesDesktop\atv1\obj\Debug\atv1.csproj.AssemblyReference.cache
+C:\Users\968840\Desktop\GItHub_pasta\Projeto\Desktop\UC5AplicaçõesDesktop\atv1\obj\Debug\atv1.csproj.SuggestedBindingRedirects.cache
+C:\Users\968840\Desktop\GItHub_pasta\Projeto\Desktop\UC5AplicaçõesDesktop\atv1\obj\Debug\atv1.Form1.resources
+C:\Users\968840\Desktop\GItHub_pasta\Projeto\Desktop\UC5AplicaçõesDesktop\atv1\obj\Debug\atv1.Form2.resources
+C:\Users\968840\Desktop\GItHub_pasta\Projeto\Desktop\UC5AplicaçõesDesktop\atv1\obj\Debug\atv1.Form3.resources
+C:\Users\968840\Desktop\GItHub_pasta\Projeto\Desktop\UC5AplicaçõesDesktop\atv1\obj\Debug\atv1.Properties.Resources.resources
+C:\Users\968840\Desktop\GItHub_pasta\Projeto\Desktop\UC5AplicaçõesDesktop\atv1\obj\Debug\atv1.csproj.GenerateResource.cache
+C:\Users\968840\Desktop\GItHub_pasta\Projeto\Desktop\UC5AplicaçõesDesktop\atv1\obj\Debug\atv1.csproj.CoreCompileInputs.cache
+C:\Users\968840\Desktop\GItHub_pasta\Projeto\Desktop\UC5AplicaçõesDesktop\atv1\bin\Debug\atv1.exe.config
+C:\Users\968840\Desktop\GItHub_pasta\Projeto\Desktop\UC5AplicaçõesDesktop\atv1\bin\Debug\atv1.exe
+C:\Users\968840\Desktop\GItHub_pasta\Projeto\Desktop\UC5AplicaçõesDesktop\atv1\bin\Debug\atv1.pdb
+C:\Users\968840\Desktop\GItHub_pasta\Projeto\Desktop\UC5AplicaçõesDesktop\atv1\obj\Debug\atv1.exe
+C:\Users\968840\Desktop\GItHub_pasta\Projeto\Desktop\UC5AplicaçõesDesktop\atv1\obj\Debug\atv1.pdb

@@ -29,6 +29,10 @@ namespace TesteTrocaBTN
                 txtQntd.Clear();
                 txtDesc.Focus();
                 button1.Text = "Salvar";
+                txtDesc.Enabled = true;
+                txtFab.Enabled = true;
+                txtValor.Enabled = true;
+                txtQntd.Enabled = true;
 
             }
             else
@@ -37,7 +41,10 @@ namespace TesteTrocaBTN
                 conn.InserirConexao(txtDesc.Text, txtFab.Text, txtValor.Text, int.Parse(txtQntd.Text));
                 LimparText();
                 atualizarGrid();
-
+                txtDesc.Enabled = false;
+                txtFab.Enabled = false;
+                txtValor.Enabled = false;
+                txtQntd.Enabled = false;
 
             }
         }
@@ -64,6 +71,10 @@ namespace TesteTrocaBTN
                 //MessageBox.Show("Banco de Dados conectado com sucesso", "", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 dataGrid.DataSource = conn.GetData("Select * FROM sistemaprodutos_produtos ORDER BY ID");
             }
+            txtDesc.Enabled = false;
+            txtFab.Enabled = false;
+            txtValor.Enabled = false;
+            txtQntd.Enabled = false;
         }
 
         private void dataGrid_CellContentClick(object sender, DataGridViewCellEventArgs e)

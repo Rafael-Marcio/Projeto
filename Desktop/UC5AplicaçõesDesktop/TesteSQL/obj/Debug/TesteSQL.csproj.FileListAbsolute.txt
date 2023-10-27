@@ -1,0 +1,14 @@
+C:\Users\968840\Desktop\GItHub_pasta\Projeto\Desktop\UC5AplicaçõesDesktop\TesteSQL\bin\Debug\TesteSQL.exe.config
+C:\Users\968840\Desktop\GItHub_pasta\Projeto\Desktop\UC5AplicaçõesDesktop\TesteSQL\bin\Debug\TesteSQL.exe
+C:\Users\968840\Desktop\GItHub_pasta\Projeto\Desktop\UC5AplicaçõesDesktop\TesteSQL\bin\Debug\TesteSQL.pdb
+C:\Users\968840\Desktop\GItHub_pasta\Projeto\Desktop\UC5AplicaçõesDesktop\TesteSQL\bin\Debug\MySql.Data.dll
+C:\Users\968840\Desktop\GItHub_pasta\Projeto\Desktop\UC5AplicaçõesDesktop\TesteSQL\bin\Debug\MySql.Data.xml
+C:\Users\968840\Desktop\GItHub_pasta\Projeto\Desktop\UC5AplicaçõesDesktop\TesteSQL\obj\Debug\TesteSQL.csproj.AssemblyReference.cache
+C:\Users\968840\Desktop\GItHub_pasta\Projeto\Desktop\UC5AplicaçõesDesktop\TesteSQL\obj\Debug\TesteSQL.csproj.SuggestedBindingRedirects.cache
+C:\Users\968840\Desktop\GItHub_pasta\Projeto\Desktop\UC5AplicaçõesDesktop\TesteSQL\obj\Debug\TesteSQL.Form1.resources
+C:\Users\968840\Desktop\GItHub_pasta\Projeto\Desktop\UC5AplicaçõesDesktop\TesteSQL\obj\Debug\TesteSQL.Properties.Resources.resources
+C:\Users\968840\Desktop\GItHub_pasta\Projeto\Desktop\UC5AplicaçõesDesktop\TesteSQL\obj\Debug\TesteSQL.csproj.GenerateResource.cache
+C:\Users\968840\Desktop\GItHub_pasta\Projeto\Desktop\UC5AplicaçõesDesktop\TesteSQL\obj\Debug\TesteSQL.csproj.CoreCompileInputs.cache
+C:\Users\968840\Desktop\GItHub_pasta\Projeto\Desktop\UC5AplicaçõesDesktop\TesteSQL\obj\Debug\TesteSQL.csproj.CopyComplete
+C:\Users\968840\Desktop\GItHub_pasta\Projeto\Desktop\UC5AplicaçõesDesktop\TesteSQL\obj\Debug\TesteSQL.exe
+C:\Users\968840\Desktop\GItHub_pasta\Projeto\Desktop\UC5AplicaçõesDesktop\TesteSQL\obj\Debug\TesteSQL.pdb

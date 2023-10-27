@@ -1,0 +1,14 @@
+C:\Users\968840\Desktop\GItHub_pasta\Projeto\Desktop\UC5AplicaçõesDesktop\TesteTrocaBTN\bin\Debug\TesteTrocaBTN.exe.config
+C:\Users\968840\Desktop\GItHub_pasta\Projeto\Desktop\UC5AplicaçõesDesktop\TesteTrocaBTN\bin\Debug\TesteTrocaBTN.exe
+C:\Users\968840\Desktop\GItHub_pasta\Projeto\Desktop\UC5AplicaçõesDesktop\TesteTrocaBTN\bin\Debug\TesteTrocaBTN.pdb
+C:\Users\968840\Desktop\GItHub_pasta\Projeto\Desktop\UC5AplicaçõesDesktop\TesteTrocaBTN\obj\Debug\TesteTrocaBTN.csproj.AssemblyReference.cache
+C:\Users\968840\Desktop\GItHub_pasta\Projeto\Desktop\UC5AplicaçõesDesktop\TesteTrocaBTN\obj\Debug\TesteTrocaBTN.csproj.SuggestedBindingRedirects.cache
+C:\Users\968840\Desktop\GItHub_pasta\Projeto\Desktop\UC5AplicaçõesDesktop\TesteTrocaBTN\obj\Debug\TesteTrocaBTN.Form1.resources
+C:\Users\968840\Desktop\GItHub_pasta\Projeto\Desktop\UC5AplicaçõesDesktop\TesteTrocaBTN\obj\Debug\TesteTrocaBTN.Properties.Resources.resources
+C:\Users\968840\Desktop\GItHub_pasta\Projeto\Desktop\UC5AplicaçõesDesktop\TesteTrocaBTN\obj\Debug\TesteTrocaBTN.csproj.GenerateResource.cache
+C:\Users\968840\Desktop\GItHub_pasta\Projeto\Desktop\UC5AplicaçõesDesktop\TesteTrocaBTN\obj\Debug\TesteTrocaBTN.csproj.CoreCompileInputs.cache
+C:\Users\968840\Desktop\GItHub_pasta\Projeto\Desktop\UC5AplicaçõesDesktop\TesteTrocaBTN\obj\Debug\TesteTrocaBTN.exe
+C:\Users\968840\Desktop\GItHub_pasta\Projeto\Desktop\UC5AplicaçõesDesktop\TesteTrocaBTN\obj\Debug\TesteTrocaBTN.pdb
+C:\Users\968840\Desktop\GItHub_pasta\Projeto\Desktop\UC5AplicaçõesDesktop\TesteTrocaBTN\bin\Debug\MySql.Data.dll
+C:\Users\968840\Desktop\GItHub_pasta\Projeto\Desktop\UC5AplicaçõesDesktop\TesteTrocaBTN\bin\Debug\MySql.Data.xml
+C:\Users\968840\Desktop\GItHub_pasta\Projeto\Desktop\UC5AplicaçõesDesktop\TesteTrocaBTN\obj\Debug\TesteTrocaBTN.csproj.CopyComplete

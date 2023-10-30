@@ -1,0 +1,14 @@
+C:\Users\968840\Desktop\GItHub_pasta\Projeto\Desktop\UC5AplicaçõesDesktop\Vendedores\bin\Debug\Vendedores.exe.config
+C:\Users\968840\Desktop\GItHub_pasta\Projeto\Desktop\UC5AplicaçõesDesktop\Vendedores\bin\Debug\Vendedores.exe
+C:\Users\968840\Desktop\GItHub_pasta\Projeto\Desktop\UC5AplicaçõesDesktop\Vendedores\bin\Debug\Vendedores.pdb
+C:\Users\968840\Desktop\GItHub_pasta\Projeto\Desktop\UC5AplicaçõesDesktop\Vendedores\obj\Debug\Vendedores.csproj.AssemblyReference.cache
+C:\Users\968840\Desktop\GItHub_pasta\Projeto\Desktop\UC5AplicaçõesDesktop\Vendedores\obj\Debug\Vendedores.csproj.SuggestedBindingRedirects.cache
+C:\Users\968840\Desktop\GItHub_pasta\Projeto\Desktop\UC5AplicaçõesDesktop\Vendedores\obj\Debug\Vendedores.Form1.resources
+C:\Users\968840\Desktop\GItHub_pasta\Projeto\Desktop\UC5AplicaçõesDesktop\Vendedores\obj\Debug\Vendedores.Properties.Resources.resources
+C:\Users\968840\Desktop\GItHub_pasta\Projeto\Desktop\UC5AplicaçõesDesktop\Vendedores\obj\Debug\Vendedores.csproj.GenerateResource.cache
+C:\Users\968840\Desktop\GItHub_pasta\Projeto\Desktop\UC5AplicaçõesDesktop\Vendedores\obj\Debug\Vendedores.csproj.CoreCompileInputs.cache
+C:\Users\968840\Desktop\GItHub_pasta\Projeto\Desktop\UC5AplicaçõesDesktop\Vendedores\obj\Debug\Vendedores.exe
+C:\Users\968840\Desktop\GItHub_pasta\Projeto\Desktop\UC5AplicaçõesDesktop\Vendedores\obj\Debug\Vendedores.pdb
+C:\Users\968840\Desktop\GItHub_pasta\Projeto\Desktop\UC5AplicaçõesDesktop\Vendedores\bin\Debug\MySql.Data.dll
+C:\Users\968840\Desktop\GItHub_pasta\Projeto\Desktop\UC5AplicaçõesDesktop\Vendedores\bin\Debug\MySql.Data.xml
+C:\Users\968840\Desktop\GItHub_pasta\Projeto\Desktop\UC5AplicaçõesDesktop\Vendedores\obj\Debug\Vendedores.csproj.CopyComplete

@@ -5,6 +5,8 @@ VisualStudioVersion = 17.2.32630.192
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TesteTrocaBTN", "TesteTrocaBTN.csproj", "{3A81D5A4-7FEC-4711-AF80-62322BC9F385}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vendedores", "..\Vendedores\Vendedores.csproj", "{AF98CAD6-0C82-4C60-A56A-8DC622BE9534}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{3A81D5A4-7FEC-4711-AF80-62322BC9F385}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3A81D5A4-7FEC-4711-AF80-62322BC9F385}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3A81D5A4-7FEC-4711-AF80-62322BC9F385}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF98CAD6-0C82-4C60-A56A-8DC622BE9534}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF98CAD6-0C82-4C60-A56A-8DC622BE9534}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF98CAD6-0C82-4C60-A56A-8DC622BE9534}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF98CAD6-0C82-4C60-A56A-8DC622BE9534}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

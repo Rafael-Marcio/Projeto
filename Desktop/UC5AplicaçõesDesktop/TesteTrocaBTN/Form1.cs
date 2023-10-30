@@ -23,11 +23,7 @@ namespace TesteTrocaBTN
         {
             if (button1.Text == "Adicionar")
             {
-                txtDesc.Clear();
-                txtFab.Clear();
-                txtValor.Clear();
-                txtQntd.Clear();
-                txtDesc.Focus();
+                LimparText();
                 button1.Text = "Salvar";
                 txtDesc.Enabled = true;
                 txtFab.Enabled = true;
@@ -38,7 +34,7 @@ namespace TesteTrocaBTN
             else
             {
                 button1.Text = "Adicionar";
-                conn.InserirConexao(txtDesc.Text, txtFab.Text, txtValor.Text, int.Parse(txtQntd.Text));
+                conn.InserirConexao(txtDesc.Text, txtFab.Text,$"R${txtValor.Text},00", int.Parse(txtQntd.Text));
                 LimparText();
                 atualizarGrid();
                 txtDesc.Enabled = false;
@@ -50,7 +46,7 @@ namespace TesteTrocaBTN
         }
         private void atualizarGrid()
         {
-            dataGrid.DataSource = conn.GetData("SELECT * FROM sistemaprodutos_produtos WHERE Descricao LIKE '%" + txtDesc.Text + "%' ORDER BY Descricao");
+            dataGrid.DataSource = conn.GetData("SELECT * FROM sistemaprodutos_produtos ORDER BY Descricao");
             dataGrid.Refresh();
         }
 
@@ -59,7 +55,8 @@ namespace TesteTrocaBTN
             txtDesc.Clear();
             txtFab.Clear();
             txtValor.Clear();
-            txtQntd.Focus();
+            txtQntd.Clear();
+            txtDesc.Focus();
         }
        
 
@@ -91,6 +88,7 @@ namespace TesteTrocaBTN
             dataGrid.DataSource = conn.ExecuteQuery("DELETE FROM sistemaprodutos_produtos WHERE ID LIKE '%" + lblProdutoSelecionado.Text + "%'");
             dataGrid.Refresh();
             atualizarGrid();
+            LimparText();
         }
 
         private void btnEditar_Click(object sender, EventArgs e)
@@ -98,6 +96,7 @@ namespace TesteTrocaBTN
             conn.Atualizar(txtDesc.Text, txtFab.Text, txtValor.Text, int.Parse(txtQntd.Text), int.Parse(lblProdutoSelecionado.Text));
             dataGrid.Refresh();
             atualizarGrid();
+            LimparText();
         }
     }
 }

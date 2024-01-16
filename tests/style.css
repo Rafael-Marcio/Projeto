@@ -1,0 +1,38 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("https://images.unsplash.com/photo-1607499699372-7bb722dff7e2?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+}
+.caixa{
+    width: 620px;
+    height: 720px;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+}
+#btn{
+    width: 230px;
+    height: 60px;
+    margin: 10px;
+    border: 2px solid white;
+    border-radius: 10px;
+    font-size: 24px;
+
+}
+label{
+    color: red;
+    border: 2px solid white;
+    margin-bottom: 30px;
+    font-size: 34px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+
+}

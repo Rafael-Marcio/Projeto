@@ -14,7 +14,7 @@ else{
     exit;
 }
 //Mostrando na tela as informações coletadas pelo POST
-$sql = "SELECT * FROM ibituruna.usuario WHERE email = :email and senha = :senha";
+$sql = "SELECT * FROM rafael.usuarios WHERE email = :email and senha = :senha";
 $result = $pdo->prepare($sql);    
 $result->bindValue(':email', "$email");
 $result->bindValue(':senha', "$senha");
@@ -26,14 +26,14 @@ var_dump($result);
 var_dump($qtd);
 if($qtd > 0 ){
 
-        $_SESSION['email'] = $count[0]['email'];
-        $_SESSION['nome'] = $count[0]['nome'];
-        $_SESSION['celular'] = $count[0]['celular'];
+        $_SESSION['email'] = $count[0]['Email'];
+        $_SESSION['nome'] = $count[0]['Nome'];
+        $_SESSION['celular'] = $count[0]['Celular'];
         
         header('Location:' . $url_sistema . 'Logar.php');
 }else{
     echo "não encontrou....";
-   // header('Location:' . $url_sistema . 'Logar.php');
+    header('Location:' . $url_sistema . 'Logar.php');
 
 }
 

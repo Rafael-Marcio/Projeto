@@ -3,11 +3,11 @@
     try{
 
             //CRIANDO AS CONSTANTES PARA A CONEXÃO
-            $host = "172.16.54.174:3310";
+            $host = "localhost:3306";
             $username = 'root';
             $password = '';
-            $DB_PORT = '3310';
-            $BASE = 'ibituruna';
+            $DB_PORT = '3306';
+            $BASE = 'rafael';
             $pdo = new PDO("mysql:host=$host;dbname=$BASE;charset=utf8", $username, $password);
     } catch (Exception $e) {
         echo ' Erro ao conectar ao banco de dados!<br>';

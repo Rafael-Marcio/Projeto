@@ -69,6 +69,7 @@ require_once('verificar.php');
             width: 80%;
             margin-top: 35px;
             margin-left: 31px;
+            margin-bottom: 30px;
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -97,19 +98,18 @@ require_once('verificar.php');
             height: 30px;
             font-size: 15px;
         }
-
+        aside{
+            height: 100vh;
+        }
     </style>
   </head>
   <body>
     <header class="bg-dark">
         <h5>
-        <?php
-            echo $_SESSION['nome'];
-            echo $_SESSION['celular'];
-        ?>
+            Cabeçalho
         </h5>
         
-    </header>
+        </header>
     <aside class="col-2 bg-dark">
         <div class="btns">
          
@@ -119,6 +119,13 @@ require_once('verificar.php');
             <button type="button" class="btn btn-success" id="btn4" name="btn4" data-bs-toggle="modal" data-bs-target="#modalLer"><i class="bi bi-currency-dollar"></i>Ler Banco de Dados</button>
             <button type="button" class="btn btn-primary" id="btnLogout" name="btnLogout" onclick="LogOut()"><i class="bi bi-battery-charging"></i>LOGOUT</button>
             <button type="button" class="btn btn-warning" id="btn" name="btn"><i class="bi bi-browser-safari" ></i>Sexta Função AJAX</button>
+            <div class="box" style="color: white; display: flex; flex-direction: column; font-size: 24px;">
+                <?php
+                    echo $_SESSION['nome'] . "<br>";
+                    
+                    echo $_SESSION['celular'];
+                ?>
+            </div>
         </div>
     </aside>
     <main class="col-10">

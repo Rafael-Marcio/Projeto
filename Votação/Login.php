@@ -74,22 +74,22 @@
             <h1 class="modal-title fs-5" id="exampleModalLabel" style="color: white;"> Logar</h1>
             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
           </div>
-          <div class="modal-body d-flex;">
+          <form method="post" action="autenticar.php" class="modal-body d-flex;">
               <div class="box1">
                 <label for="">E-mail: </label>
-                <input type="text" id="idLivro" name="idLivro" placeholder="E-mail...">
+                <input type="text" id="email" name="email" placeholder="E-mail...">
               </div> 
               <div class="box1">
                 <label for="">Senha: </label>
-                <input type="password" id="idLivro" name="idLivro" placeholder="Senha...">
+                <input type="password" id="senha" name="senha" placeholder="Senha...">
               </div> 
+              <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                <button type="submit" class="btn btn-primary" id="btnLogar" name="btnLogar">Logar</button>
+                    
+              </div>
           </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
-            <button type="button" class="btn btn-primary" id="btnDeletar" name="btnDeletar">Logar</button>
-            <div  id="mensagem" name="mensagem"></div>
-                
-          </div>
+          
         </div>
       </div>
     </div>

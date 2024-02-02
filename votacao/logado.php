@@ -103,15 +103,25 @@ require_once('verificar.php');
         </h5>
         
     </header>
+
     <aside class="col-2 bg-dark">
         <div class="btns">
          
+
             <button type="button" class="btn btn-success" id="btn1" name="btn1" data-bs-toggle="modal" data-bs-target="#modalCadastrar"><i class="bi bi-trash"></i>Cadastrar Usuário</button>
-            <button type="button" class="btn btn-primary" id="btn2" name="btn2" data-bs-toggle="modal" data-bs-target="#modalInserir"><i class="bi bi-minecart"></i></i>Inserir Livro</button>
-            <button type="button" class="btn btn-warning" id="btn3" name="btn3" data-bs-toggle="modal" data-bs-target="#modalUpdate"><i class="bi bi-balloon-fill"></i>Atualizar Livro</button>
-            <button type="button" class="btn btn-success" id="btn4" name="btn4" data-bs-toggle="modal" data-bs-target="#modalLer"><i class="bi bi-currency-dollar"></i>Ler Banco de Dados</button>
-            <button type="button" class="btn btn-primary" id="btnLogout" name="btnLogout" onclick="LogOut()"><i class="bi bi-battery-charging"></i>LOGOUT</button>
-            <button type="button" class="btn btn-warning" id="btn" name="btn"><i class="bi bi-browser-safari" ></i>Sexta Função AJAX</button>
+            <button type="button" class="btn btn-primary" id="btn2" name="btn2" data-bs-toggle="modal" data-bs-target="#modalInserir"><i class="bi bi-minecart"></i></i>Cadastrar Competição</button>
+            <button type="button" class="btn btn-warning" id="btn3" name="btn3" data-bs-toggle="modal" data-bs-target="#modalUpdate"><i class="bi bi-balloon-fill"></i>Cadastrar Quezitos</button>
+            <button type="button" class="btn btn-success" id="btn4" name="btn4" data-bs-toggle="modal" data-bs-target="#modalLer"><i class="bi bi-currency-dollar"></i>Votção</button>
+            <button type="button" class="btn btn-danger" id="btnLogout" name="btnLogout" onclick="LogOut()"><i class="bi bi-trash"></i>LOGOUT</button>
+            <div class="box" style="color: white; font-size: 18px;">
+              <?php
+                echo $_SESSION['nome'];
+              ?>
+              <p></p>
+              <?php
+                echo $_SESSION['celular'];
+              ?>
+            </div>
         </div>
     </aside>
     <main class="col-10">
@@ -139,18 +149,10 @@ require_once('verificar.php');
                 <div class="box1">
                   <label for="">Celular: </label>
                   <input type="text" id="celular" name="celular" placeholder="Celular...">
-                </div> 
-                <div class="box1">
-                  <label for="">CPF: </label>
-                  <input type="text" id="cpf" name="cpf" placeholder="CPF...">
-                </div> 
+                </div>
                 <div class="box1">
                   <label for="">Competição: </label>
                   <input type="text" id="competicao" name="competicao" placeholder="competicao...">
-                </div> 
-                <div class="box1">
-                  <label for="">Matrícula: </label>
-                  <input type="text" id="matricula" name="matricula" placeholder="matricula...">
                 </div> 
                 <div class="box1">
                   <label for="">Nível: </label>
@@ -161,29 +163,118 @@ require_once('verificar.php');
                 </div> 
                 <div class="box1">
                     <label for="">E-mail: </label>
-                    <input type="text" id="idLivro" name="idLivro" placeholder="E-mail...">
+                    <input type="text" id="user" name="user" placeholder="E-mail...">
                   </div> 
                 <div class="box1">
                     <label for="">Senha: </label>
-                    <input type="password" id="idLivro" name="idLivro" placeholder="Senha...">
+                    <input type="password" id="senha" name="senha" placeholder="Senha...">
                 </div> 
-            </div>
-            <div class="modal-footer">
-              <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
-              <button type="button" class="btn btn-primary" id="btnDeletar" name="btnDeletar">Cadastrar</button>
-              <div  id="mensagem" name="mensagem"></div>
-                  
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                  <button type="button" class="btn btn-primary" id="btnCadastrar" name="btnCadastrar">Cadastrar</button>
+                  <div class="mensagem" id="mensagem"></div>
+                </div>
             </div>
           </div>
         </div>
       </div>
-  
+
+      
+
+      <!-- Modal Competição -->
+    <div class="modal fade" id="modalCompetição" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" style="background-image: url('imgs/pawel-czerwinski-rV8Hg07t61I-unsplash.jpg');">
+        <div class="modal-dialog modal-lg" style="width: 100vw; height: 100vh; display: flex; justify-content: center; align-items: center; ">
+          <div class="modal-content" style="background-color: transparent; border: 2px solid white;">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel" style="color: white;"> Cadastrar</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body d-flex;">
+                <div class="box1">
+                  <label for="">Nome: </label>
+                  <input type="text" id="nome" name="nome" placeholder="Nome...">
+                </div> 
+                <div class="box1">
+                  <label for="">Celular: </label>
+                  <input type="text" id="celular" name="celular" placeholder="Celular...">
+                </div>
+                <div class="box1">
+                  <label for="">Competição: </label>
+                  <input type="text" id="competicao" name="competicao" placeholder="competicao...">
+                </div> 
+                <div class="box1">
+                  <label for="">Nível: </label>
+                  <select name="nivel" id="nivel">
+                    <option value="adm">ADM</option>
+                    <option value="jurado">Jurado</option>
+                  </select>
+                </div> 
+                <div class="box1">
+                    <label for="">E-mail: </label>
+                    <input type="text" id="user" name="user" placeholder="E-mail...">
+                  </div> 
+                <div class="box1">
+                    <label for="">Senha: </label>
+                    <input type="password" id="senha" name="senha" placeholder="Senha...">
+                </div> 
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                  <button type="button" class="btn btn-primary" id="btnCadastrar" name="btnCadastrar">Cadastrar</button>
+                  <div class="mensagem" id="mensagem"></div>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
 
 
 </body>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+  
   <script type="text/javascript">
+  $(document).ready(function(){
+    $("#btnCadastrar").click(function() {
+            event.preventDefault();
+
+            //pegando as variáveis pgp na LIB Biblioteca
+          
+            var urlSistema = "<?= $url_sistema ?>";
+            
+            var nome = document.getElementById('nome').value;
+            var celular = document.getElementById('celular').value;
+            var competicao = document.getElementById('competicao').value;
+            var nivel = document.getElementById('nivel').value;
+            var user = document.getElementById('user').value;
+            var senha = document.getElementById('senha').value;
+
+            var dados = {
+                nome: nome,
+                celular: celular,
+                competicao: competicao,
+                nivel: nivel,
+                user: user,
+                senha: senha,
+            }
+
+            $.ajax({
+                url: urlSistema + "PDO/Cadastrar.php",
+                type: 'POST',
+                //Serializando o formulário com suas inputs em vetor
+                data: dados,
+
+                success:function (mensagem) {
+                    console.log("O caminho do sistema é:" + urlSistema);
+                    console.log("Retorno do PHP foi: " + mensagem);
+                    $('#mensagemInsert').text('');
+                    $('#mensagemInsert').text(mensagem);
+                    window.alert('teste');
+                }
+
+            })
+    })
+  });
+
     function LogOut(){
         window.location.href = 'logout.php';
     }

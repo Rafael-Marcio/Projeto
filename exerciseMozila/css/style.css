@@ -1,0 +1,31 @@
+body{
+    width: 98vw;
+    height: 98vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#mozila{
+    width: 250px;
+    height: auto;
+}
+img{
+    width: 60px;
+    height: 60px;
+}
+li{
+    font-size: 24px;
+}
+p{
+    font-size: 25px;
+}
+main{
+    padding: 34px;
+    width: 60vw;
+    height: 70vh;
+    background: rgba( 255, 255, 255, 0.15 );
+    box-shadow: 0 8px 32px 0 rgb(10, 11, 43);
+    backdrop-filter: blur( 7.5px );
+    -webkit-backdrop-filter: blur( 7.5px );
+    border-radius: 80px;
+}

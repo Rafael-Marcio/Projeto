@@ -1,0 +1,54 @@
+main{
+    display: flex;
+    justify-content: space-between;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    
+}
+.canto1{
+    width: 234px;
+    height: 234px;
+    background-color: red;
+    margin-bottom: 460px;
+    font-size: 24px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.canto2{
+    width: 234px;
+    height: 234px;
+    background-color: green;
+    font-size: 24px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.canto3{
+    width: 234px;
+    height: 234px;
+    background-color: yellow;
+    margin-bottom: 460px;
+    font-size: 24px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.canto4{
+    width: 234px;
+    height: 234px;
+    background-color: blue;
+    font-size: 24px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}

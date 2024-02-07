@@ -1,0 +1,30 @@
+body{
+    width: 98vw;
+    height: 98vh;
+    padding: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('https://images.unsplash.com/photo-1495145047563-8435333e99d1?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-size: cover;
+}
+form{
+    width: 50vw;
+    height: 50vh;
+    border: 3px solid black;
+    padding: 24px;
+    border-radius: 30px;
+
+    background: rgba( 255, 255, 255, 0.15 );
+    box-shadow: 0 8px 32px 0 rgb(10, 11, 43);
+    backdrop-filter: blur( 7.5px );
+    -webkit-backdrop-filter: blur( 7.5px );
+    background-color: rgba(240, 248, 255, 0.555);
+}
+#erro{
+    background: rgb(202, 60, 60);
+    color: white;
+}
+label{
+    font-weight: bold;
+}

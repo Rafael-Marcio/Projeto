@@ -1,0 +1,29 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box{
+    width: 40vw;
+    height: 40vh;
+    border: 3px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+input{
+    font-size: 20px;
+    margin: 5px;
+    padding: 4px;
+}
+button{
+    font-size: 20px;
+    padding: 2px;
+    margin: 5px;
+}
+.mensagem{
+    font-size: 20px;
+}

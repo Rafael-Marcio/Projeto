@@ -5,4 +5,19 @@ body{
 .row{
     width: 80vw;
     height: 50vh;
+    display: flex;
+    flex-direction: column;
 }
+.tabs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tab{
+    background-color: #00eaff;
+    width: 100%;
+}
+a{
+    color: black!important;
+}   
+

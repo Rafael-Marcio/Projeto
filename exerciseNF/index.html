@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  
+  <title>Nota Fiscal</title>
+</head>
+  
+<body>
+  <main>
+    <div class="danfee">
+      <div class="codigo">
+        <label>Codigo da nota fiscal</label>
+        <h4>00000000001</h4>
+      </div>
+      <div class="radio">
+        <div class="entrada">
+          <input type="radio" id="entrada" value="entrada">
+          <label for="entrada"> Entrada</label>
+        </div>
+        <div class="saida">
+          <input type="radio" id="saida" value="saida">
+          <label for="saida"> Saida</label>
+        </div>
+      </div>
+      <div class="txtDanfee">
+        <div class="txt">
+          <label>Serie</label>
+          <input type="text" id="serieDanfee" name="serieDanfee" class="form-control" placeholder="Serie:" aria-label="Serie">
+        </div>
+        <div class="txt">
+          <label>Folha</label>
+          <input type="text" id="folhaDanfee" name="folhaDanfee" class="form-control" placeholder="Folha:" aria-label="Folha">
+        </div>
+        <div class="txt">
+          <label>Natureza da operação</label>
+          <input type="text" id="natuDanfee" name="natuDanfee" class="form-control" placeholder="Natureza da operação:" aria-label="Natureza da operação">
+        </div>
+      </div>
+
+    </div>
+    <div class="nota">
+      <nav>
+        <div class="nav nav-tabs" id="nav-tab" role="tablist">
+          <button class="nav-link " id="nav-icon" role="tab" aria-selected="false" disabled><i class="bi bi-card-text"></i></button>
+          <button class="nav-link active" id="nav-remetente-tab" data-bs-toggle="tab" data-bs-target="#nav-remetente" type="button" role="tab" aria-controls="nav-remetente" aria-selected="false">Remetente</button>
+          <button class="nav-link " id="nav-destinatario-tab" data-bs-toggle="tab" data-bs-target="#nav-destinatario" type="button" role="tab" aria-controls="nav-destinatario" aria-selected="false">Destinátario</button>
+          <button class="nav-link " id="nav-transportador-tab" data-bs-toggle="tab" data-bs-target="#nav-transportador" type="button" role="tab" aria-controls="nav-transportador" aria-selected="false">Transportador</button>
+          <button class="nav-link " id="nav-produtos-tab" data-bs-toggle="modal" data-bs-target="#produtosModal" type="button" >Produtos</button>
+        </div>
+      </nav>
+    <div class="tab-content" id="nav-tabContent">
+      <div class="tab-pane fade show active d-flex justify-content-center align-items-center" id="nav-remetente" role="tabpanel" aria-labelledby="nav-remetente-tab" tabindex="0">
+        <div class="box1">
+          <h2>Dados do Remetente.</h2>
+          <label>Razão Social</label>
+          <input type="text" id="razaoReme" name="razaoReme" class="form-control" placeholder="Razão Social">
+          <div class="dados">
+            <div class="esquerda1">
+              <label >CPF/CNPJ</label>
+              <input type="text" id="CPFReme" name="CPFReme" class="form-control" placeholder="CPF/CNPJ" aria-label="CPF/CNPJ">
+            </div>
+            <div class="direita1">
+              <label >Telefone</label>
+              <input type="text" id="telReme" name="telReme" class="form-control" placeholder="Telefone" aria-label="Telefone">
+            </div>
+          </div>
+          <label >Inscrição estadual</label>
+          <input type="text" id="inscricaoReme" name="inscricaoReme" class="form-control" placeholder="Inscrição estadual" aria-label="Inscrição estadual">
+          <h2>Endereço</h2>
+          <div class="box">
+            <div class="esquerda">
+              <label>CEP</label>
+              <input type="text" id="CEPReme" name="CEPReme" class="form-control" placeholder="CEP" aria-label="CEP"> 
+            </div>
+            <div class="direita">
+              <label >Endereço</label>
+              <input type="text" id="endeReme" name="endeReme" class="form-control" placeholder="Endereço" aria-label="Endereço">
+            </div>
+          </div>
+          <div class="box">
+            <div class="esquerda1">
+              <label >Bairro</label>
+              <input type="text" id="bairroReme" name="bairroReme" class="form-control" placeholder="Bairro" aria-label="Bairro">
+            </div>
+            <div class="direita1">
+                <label >Município</label>
+                <input type="text" id="muniReme" name="muniReme" class="form-control" placeholder="Município" aria-label="Município">
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="tab-pane fade" id="nav-destinatario" role="tabpanel" aria-labelledby="nav-destinatario-tab" tabindex="0">
+        <div class="box2">
+          <h2>Dados do destinátario.</h2>
+          <label>Razão Social</label>
+          <input type="text" id="razaoDesti" name="razaoDesti" class="form-control" placeholder="Razão Social">
+          <div class="dadosDestina">
+            <div class="dadosDestinatario">
+              <label >CPF/CNPJ</label>
+              <input type="text" id="CPFDesti" name="CPFDesti" class="form-control" placeholder="CPF/CNPJ" aria-label="CPF/CNPJ">
+            </div>
+            <div class="dadosDestinatario">
+              <label >Telefone</label>
+              <input type="text" id="telDesti" name="telDesti" class="form-control" placeholder="Telefone" aria-label="Telefone">
+            </div>
+            <div class="dadosDestinatario">
+              <label >Inscrição estadual</label>
+              <input type="text" id="inscricaoDesti" name="inscricaoDesti" class="form-control" placeholder="Inscrição estadual" aria-label="Inscrição estadual">
+            </div>
+          </div>
+
+          <h2>Endereço</h2>
+          <div class="box">
+            <div class="esquerda">
+              <label>CEP</label>
+              <input type="text" id="CEPDesti" name="CEPDesti" class="form-control" placeholder="CEP" aria-label="CEP"> 
+            </div>
+            <div class="direita">
+              <label >Endereço</label>
+              <input type="text" id="endeDesti" name="endeDesti" class="form-control" placeholder="Endereço" aria-label="Endereço">
+            </div>
+          </div>
+          
+          <div class="box">
+            <div class="esquerda1">
+              <label >Bairro</label>
+              <input type="text" id="bairroDesti" name="bairroDesti" class="form-control" placeholder="Bairro" aria-label="Bairro">
+            </div>
+            <div class="direita1">
+                <label >Município</label>
+                <input type="text" id="muniDesti" name="muniDesti" class="form-control" placeholder="Município" aria-label="Município">
+            </div>
+          </div>
+          
+          <h2>Data e Hora</h2>
+          <div class="dataEhora">
+            <div class="cima">
+              <div class="dataEmi">
+                <label >Data de emissão</label>
+                <input type="date" id="emissaoDesti" name="emissaoDesti" class="form-control" placeholder="Data de emissão" aria-label="Data de emissão">
+              </div>
+            </div>
+            <div class="baixo">
+              <div class="data">
+                  <label >Data de entrada</label>
+                  <input type="date" id="entradaDesti" name="entradaDesti" class="form-control" placeholder="Data entrada" aria-label="Data entrada">
+                  <label >Data de saida</label>
+                  <input type="date" id="saidaDesti" name="saidaDesti" class="form-control" placeholder="Data de saida" aria-label="Data de saida">
+              </div>
+                <div class="hora">
+                  <label >Hora de Entrada</label>
+                  <input type="time" id="hrEntradaDesti" name="hrEntradaDesti" class="form-control" placeholder="Hora de entrada aria-label="Hora de entrada>
+                  <label >Hora  de Saída</label>
+                  <input type="time" id="hrSaidaDesti" name="hrSaidaDesti" class="form-control" placeholder="Hora de saida" aria-label="Hora de saida">
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="tab-pane fade" id="nav-transportador" role="tabpanel" aria-labelledby="nav-transportador-tab" tabindex="0">
+        <div class="box3">
+          <h2>Dados do transportador</h2>
+          <label>Razão Social</label>
+          <input type="text" id="razaoTrans" name="razaoTrans" class="form-control" placeholder="Razão Social" aria-label="Razão Social">
+          <div class="dadosTranspor">
+            <div class="dadosTransportador">
+              <label >CPF/CNPJ</label>
+              <input type="text" id="CPFTrans" name="CPFTrans" class="form-control" placeholder="CPF/CNPJ" aria-label="CPF/CNPJ">
+            </div>
+            <div class="dadosTransportador">
+              <label >Telefone</label>
+              <input type="text" id="telTrans" name="telTrans" class="form-control" placeholder="Telefone" aria-label="Telefone">
+            </div>
+            <div class="dadosTransportador">
+              <label >Frete por conta</label>
+              <input type="text" id="freteContaTrans" name="freteContaTrans" class="form-control" placeholder="Frete por conta" aria-label="Frete por conta">
+            </div>
+          </div>
+          <label >Inscrição estadual</label>
+          <input type="text" id="inscricaoTrans" name="inscricaoTrans" class="form-control" placeholder="Inscrição estadual" aria-label="Inscrição estadual">
+
+          <h2>Endereço</h2>
+          <div class="box">
+            <div class="esquerda">
+              <label>CEP</label>
+              <input type="text" id="CEPTrans" name="CEPTrans" class="form-control" placeholder="CEP" aria-label="CEP"> 
+            </div>
+            <div class="direita">
+              <label >Endereço</label>
+              <input type="text" id="endeTrans" name="endeTrans" class="form-control" placeholder="Endereço" aria-label="Endereço">
+            </div>
+          </div>
+          <div class="box">
+            <div class="esquerda1">
+              <label >Bairro</label>
+              <input type="text" id="bairroTrans" name="bairroTrans" class="form-control" placeholder="Bairro" aria-label="Bairro">
+            </div>
+            <div class="direita1">
+                <label >Município</label>
+                <input type="text" id="muniTrans" name="muniTrans" class="form-control" placeholder="Município" aria-label="Município">
+            </div>
+          </div>
+          
+          <h2>Dados de transporte</h2>
+          <div class="box">
+            <div class="esquerda1">
+              <label >Valor do frete</label>
+              <input type="text" id="freteTrans" name="freteTrans" class="form-control" placeholder="Valor do frete" aria-label="Valor do frete">
+            </div>
+            <div class="direita1">
+              <label >Peso bruto</label>
+              <input type="text" id="pesoTrans" name="pesoTrans" class="form-control" placeholder="Peso bruto" aria-label="Peso bruto">
+            </div>
+          </div>
+        </div>
+      </div> 
+    </div>
+  </div>
+  </main>
+  <div class="modal fade" id="produtosModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content" style="display: flex; flex-direction: column; width: 1500px; position: absolute; right: -500px;">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="staticBackdropLabel">Modal title</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body" style="display: flex; height: 760px; justify-content: center; align-items: center;">
+          <div class="box4">
+            <div class="box">
+              <div class="esquerda">
+                <label>Codigo</label>
+                <input type="text" id="codProd" name="codProd" class="form-control" placeholder="Codigo" aria-label="Codigo"> 
+              </div>
+              <div class="direita">
+                <label >Descrição do produto</label>
+                <input type="text" id="descProd" name="descProd" class="form-control" placeholder="Descrição do produto" aria-label="Descrição do produto">
+              </div>
+            </div>
+            <div class="dadosProdu">
+              <div class="dadosProdutos">
+                <label >Quantidade</label>
+                <input type="text" id="qtdProd" name="qtdProd" class="form-control" placeholder="Quantidade" aria-label="Quantidade">
+              </div>
+              <div class="dadosProdutos">
+                <label >Valor unitario</label>
+                <input type="text" id="valorUniProd" name="valorUniProd" class="form-control" placeholder="Valor unitario" aria-label="Valor unitario">
+              </div>
+              <div class="dadosProdutos">
+                <label >Valor Total</label>
+                <input type="text" id="valorTotalProd" name="valorTotalProd" class="form-control" placeholder="Valor total" aria-label="Valor total">
+              </div>
+            </div>
+            <table>
+              <thead>
+                  <tr>
+                      <th>ID</th>
+                      <th>Descrição</th>
+                      <th>Quantidade</th>
+                      <th>Valor unitario</th>
+                      <th>Valor Total</th>
+                  </tr>  
+              </thead>
+              <tbody id="tabela">
+               
+              </tbody>
+          </table>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <h6>Valor dos produtos:</h6>
+          <h6>Valor do frete:</h6>
+          <h6>Valor total da nota:</h6>
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary" onclick="inserir()">Understood</button>
+          <button type="button" class="btn btn-primary" onclick="ler()">Ler</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
+<script src="./javascript/index.js"></script>
+<script>
+//API para CEP
+  
+      document.getElementById('CEPReme').addEventListener('blur', function() {
+          const cep = this.value.replace(/\D/g, '');
+  
+          if (cep.length !== 8) {
+              alert('CEP inválido');
+              return;
+          }
+  
+          fetch(`https://viacep.com.br/ws/${cep}/json/`)
+              .then(response => response.json())
+              .then(data => {
+                  if (data.erro) {
+                      alert('CEP não encontrado');
+                  } else {
+                      document.getElementById('muniReme').value = data.localidade;
+                      document.getElementById('bairroReme').value = data.bairro;
+                      document.getElementById('endeReme').value = data.logradouro;
+                  }
+              })
+              .catch(error => console.error('Erro na requisição:', error));
+      });
+
+
+      document.getElementById('CEPDesti').addEventListener('blur', function() {
+          const cep = this.value.replace(/\D/g, '');
+  
+          if (cep.length !== 8) {
+              alert('CEP inválido');
+              return;
+          }
+  
+          fetch(`https://viacep.com.br/ws/${cep}/json/`)
+              .then(response => response.json())
+              .then(data => {
+                  if (data.erro) {
+                      alert('CEP não encontrado');
+                  } else {
+                      document.getElementById('muniDesti').value = data.localidade;
+                      document.getElementById('bairroDesti').value = data.bairro;
+                      document.getElementById('endeDesti').value = data.logradouro;
+                  }
+              })
+              .catch(error => console.error('Erro na requisição:', error));
+      });
+
+
+      document.getElementById('CEPTrans').addEventListener('blur', function() {
+          const cep = this.value.replace(/\D/g, '');
+  
+          if (cep.length !== 8) {
+              alert('CEP inválido');
+              return;
+          }
+  
+          fetch(`https://viacep.com.br/ws/${cep}/json/`)
+              .then(response => response.json())
+              .then(data => {
+                  if (data.erro) {
+                      alert('CEP não encontrado');
+                  } else {
+                      document.getElementById('muniTrans').value = data.localidade;
+                      document.getElementById('bairroTrans').value = data.bairro;
+                      document.getElementById('endeTrans').value = data.logradouro;
+                  }
+              })
+              .catch(error => console.error('Erro na requisição:', error));
+      });
+</script>
+</html>

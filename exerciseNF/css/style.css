@@ -1,23 +1,236 @@
 body{
-    width: 98vw;
-    height: 98vh;
-}
-.row{
-    width: 80vw;
-    height: 50vh;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 98vw;
+    height: 900px;
+    background-color: gray !important;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    height: 800px;
+    width: 1800px;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+.danfee{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: -0px;
+    height: 100%;
+    width: 290px;
+    background-color: white;
+    border: solid black 2px;
+}
+.codigo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    border: solid 2px black;
+    border-left: none;
+    border-right: none;
+}
+.radio{
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    width: 100%;
+    position: relative;
+    top: 20px;
+    justify-content: center;
+    align-items: center;
+    border: solid 2px black;
+    border-left: none;
+    border-right: none;
+}
+.txtDanfee{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 100px;
+    height: 200px;
+    justify-content: space-around;
+    align-items: center;
+}
+.txt{
+    width: 95%;
+}
+i{
+    color: white;
 }
 .tabs{
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.tab{
-    background-color: #00eaff;
-    width: 100%;
-}
 a{
     color: black!important;
 }   
-
+.nav{
+    display: flex;
+    width: 1500px;
+    display: flex;
+    align-items: center;
+    justify-content:start;
+    background-color: rgb(67, 48, 151);
+    color: white !important;
+    position: absolute;
+    bottom: 758px;
+    right: 0px;
+}
+.nav-link{
+    color: white;
+}
+.box1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    top: 42px;
+    right: -0px;
+    border: 2px solid black;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 1500px;
+    height: 760px;
+    padding: 27px;
+    background-color: white;
+    padding: 100px;
+}
+.box2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    top: 42px;
+    right: 0px;
+    border: 2px solid black;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 1500px;
+    height: 760px;
+    padding: 27px;
+    background-color: white;
+}
+.box3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    top: 42px;
+    right: 0px;
+    border: 2px solid black;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 1500px;
+    height: 760px;
+    padding: 27px;
+    background-color: white;
+}
+.box4{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    width: 1500px;
+    height: 760px;
+    padding: 27px;
+    background-color: white;
+}
+.form-control{
+    border: 1px solid black !important;
+    margin-bottom: 20px;
+}
+.box{
+    display: flex;
+}
+.dados{
+    display: flex;
+}
+.direita{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+.esquerda{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    padding-right: 20px;
+}
+.direita1{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.esquerda1{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding-right: 20px;
+}
+.dadosDestinatario{
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+}
+.dadosDestina{
+    display: flex;
+    justify-content: space-around;
+}
+.cima{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dataEmi{
+    width: 400px;
+}
+.baixo{
+    display: flex;
+    justify-content: space-around;
+}
+.data{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+.hora{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+.dadosTransportador{
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+}
+.dadosTranspor{
+    display: flex;
+    justify-content: space-around;
+}
+.dadosProdutos{
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+}
+.dadosProdu{
+    display: flex;
+    justify-content: space-around;
+}
+table{
+    border: 2px solid black;
+}
+tr,td,th{
+    border: 2px solid black !important;
+}

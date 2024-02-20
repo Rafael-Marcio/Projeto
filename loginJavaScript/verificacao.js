@@ -22,3 +22,22 @@ function Email(){
         mensagem.innerHTML = "";
     }
 }
+function MouseOve(){
+    let boxColor = document.getElementById('box');
+    boxColor.style.backgroundColor = "red";
+}
+function MouseOut(){
+    let boxColor = document.getElementById('box');
+    boxColor.style.backgroundColor = "blue";
+    
+}
+function MouseUp(){
+    let boxColor = document.getElementById('box');
+    boxColor.style.backgroundColor = "yellow";
+    
+}
+function MouseDown(){
+    let boxColor = document.getElementById('box');
+    boxColor.style.backgroundColor = "green";
+    
+}

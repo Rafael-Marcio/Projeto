@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="pt-br" data-bs-theme="dark" >
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Estruturado MYSQL</title>
+    <link rel="shortcut icon" type="image/ico" href="./images/senac.ico"/>
+    <link href="./bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="./css/limpo.css" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="./vendor/materialize/css/materialize.min.css"  media="screen,projection"/>
+
+  </head>
+  <body class="container" >
+
+    
+    
+
+    <footer>
+      <img src="./images/senacMG.png" alt="">
+    </footer>
+
+
+    <form method="post" action="./scripts/listar.php" class="box" id="box" style="background-color: rgba(20, 20, 20, 0.425); border: 2px solid black; width: 70vw; height: 70vh; border-radius: 30px; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: justify; box-shadow: rgba(70, 0, 200, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;">
+
+      <div class="box1" style="margin: 20px;">
+        <label style="font-size: 24px;">Tarefa:</label>
+        <input type="text" id="tarefa" name="tarefa" style="font-size: 24px; width: 300px; box-shadow: rgba(20, 50, 193, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;">
+
+      </div>
+
+      <div class="box1" style="margin: 20px;">
+        <label  style="font-size: 24px;">Horas:</label>
+        <input type="time" id="hora" name="hora" style="font-size: 24px; width: 300px; box-shadow: rgba(20, 50, 193, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;">
+        
+      </div>
+
+      <div class="box1" style="margin: 20px;">
+        <label  style="font-size: 24px;">Data:</label>
+        <input type="date" id="data" name="data" style="font-size: 24px; width: 300px; box-shadow: rgba(20, 50, 193, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;">
+
+      </div>
+      <button type="submit" class="btn btn-success" style="font-size: 24px; width: 300px; margin-left: 60px; border-radius: 20px; box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;">Salvar</button>
+
+    </form>
+
+    <!-- Bootstrap JS -->
+    <script src="./bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- materialize JS -->
+    <script type="text/javascript" src="./vendor/materialize/js/materialize.min.js"></script>
+    <!-- JavaScript Arquivo -->
+
+  </body>
+</html>

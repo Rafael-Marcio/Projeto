@@ -18,9 +18,9 @@ try{
         'descricao' => $dadosPOST['tarefa'],
         'data' => $dadosPOST['data'],
         'hora' => $dadosPOST['hora'],
+        'raAluno' => '968840',
     ];
-
-    $sql = "INSERT INTO agenda.tarefas (`descricao`,`data`,`hora`) VALUES (:descricao, :data, :hora)";
+    $sql = "INSERT INTO agenda.tarefas (`descricao`,`data`,`hora`,`raAluno`) VALUES (:descricao, :data, :hora, :raAluno)";
     $result = $conn->prepare($sql);
     $result->execute($dados);
 

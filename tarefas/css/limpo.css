@@ -6,7 +6,7 @@
   align-items: center;
   flex-direction: column;
   font-size: 50px
-
+  
 }
 img{
   width: 200px;
@@ -30,4 +30,29 @@ img{
   --bs-btn-disabled-color: #fff;
   --bs-btn-disabled-bg: rgba(200, 50, 255, 0.25);
   --bs-btn-disabled-border-color: rgba(200, 50, 255, 0.25);
+}
+td{
+  border: 1px solid black;
+  
+}
+.edit{
+  background-color: green;
+  color: white;
+  border: none;
+  width: 80px;
+  height: 30px;
+}
+.excluir{
+  background-color: red;
+  color: white;
+  border: none;
+  width: 80px;
+  height: 30px;
+}
+.row{
+  background-color: white;
+  color: black;
+}
+td{
+  padding: 10px;
 }

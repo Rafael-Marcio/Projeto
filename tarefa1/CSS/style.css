@@ -1,0 +1,61 @@
+body{
+    width: 98vw;
+    height: 98vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+input{
+    font-size: 20px;
+}
+#btnCadastrar{
+    width: 100px;
+    height: 50px;
+    font-size: 20px;
+    background-color: rgb(0, 68, 255);
+    
+}
+#btnCadastrar :hover{
+    background-color: brown;
+}
+table{
+    font-size: 24px;
+}
+th, td{
+    text-align: end;
+    padding: 5px;
+    border: black solid 2px;
+}
+button{
+    font-size: 24px;
+}
+table{
+    background-color: rgba(255, 255, 255, 0.418);
+    color: black;
+}
+.caixa{
+    width: 60vw;
+    height: 80vh !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url('https://images.unsplash.com/photo-1587293852726-70cdb56c2866?q=80&w=2072&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-color: white;
+    border-radius: 20px;
+    border: 3px solid blue;
+
+    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+}
+.box{
+    justify-content: space-around;
+    border: white 3px solid;
+    padding: 6px;
+    margin: 12px;
+    display: flex;
+    border-radius: 50px;
+}
+input{
+    margin: 5px;
+}

@@ -4,7 +4,24 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: black;
+
+      /* width */
+  ::-webkit-scrollbar {
+    height: 12px !important;
+     width: 15px !important;
+   }
+  
+   /* Track */
+   ::-webkit-scrollbar-track {
+     box-shadow: inset 0 0 3px grey;
+     border-radius: 20px;
+   }
+  
+   /* Handle */
+   ::-webkit-scrollbar-thumb {
+     background: rgba(206, 202, 202, 0.979);
+     border-radius: 20px;
+   }
 }
 input{
     font-size: 20px;
@@ -20,7 +37,7 @@ input{
     background-color: brown;
 }
 table{
-    font-size: 24px;
+    font-size: 18px;
 }
 th, td{
     text-align: end;
@@ -34,19 +51,25 @@ table{
     background-color: rgba(255, 255, 255, 0.418);
     color: black;
 }
+.tabela2{
+    max-width: 60vw;
+    max-height: 60vh !important;
+    overflow-x: auto;
+    overflow-y: auto;
+}
 .caixa{
     width: 60vw;
     height: 80vh !important;
     display: flex;
-    justify-content: center;
     align-items: center;
     flex-direction: column;
     background-image: url('https://images.unsplash.com/photo-1587293852726-70cdb56c2866?q=80&w=2072&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
     background-color: white;
     border-radius: 20px;
-    border: 3px solid blue;
+    border: 3px solid black;
 
-    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+
+    box-shadow: rgba(0, 4, 29, 0.48) 26px 22px 36px 20px, rgba(20, 0, 0, 0.8) -6px -2px 16px 20px;
 }
 .box{
     justify-content: space-around;

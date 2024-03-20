@@ -25,22 +25,24 @@
                 <input id="marca">
             </div>
             <div class="box1" style="padding: 12px;">
-                <button id="btnCadastrar">Cadastrar</button>
+                <button id="btnCadastrar" style="color: white; font-weight: 400;">Cadastrar</button>
             </div>
         </div>
-        <table>
-            <tr>
-                <th>ID</th>
-                <th>Produto</th>
-                <th>Quantidade</th>
-                <th>Marca</th>
-                <th style="background-color: transparent; border: transparent;"></th>
-                <th style="background-color: transparent; border: transparent;"></th>
-                <th style="background-color: transparent; border: transparent;"></th>
-            </tr>
-            <tbody id="tabela">
-            </tbody>
-        </table>
+        <div class="tabela2">
+            <table>
+                <tr>
+                    <th>ID</th>
+                    <th>Produto</th>
+                    <th>Quantidade</th>
+                    <th>Marca</th>
+                    <th style="background-color: transparent; border: transparent;"></th>
+                    <th style="background-color: transparent; border: transparent;"></th>
+                    <th style="background-color: transparent; border: transparent;"></th>
+                </tr>
+                <tbody id="tabela">
+                </tbody>
+            </table>
+        </div>
     </div>
 </body>
 <script>

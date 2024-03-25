@@ -38,10 +38,10 @@ try {
             $zap = $linha['zap'];
 
             if($zap == 1){
-            $comprados .= "<tr> <td>" . $id . "</td><td>" . $nome . "</td><td>" . $email . "</td><td>" . $celular . "</td><td><i style='font-size: 30px; color: green;' class='bi bi-whatsapp'></i></td><td><button style='background-color: red; border-radius: 10px;' onclick='removerElemento(" . $linha["id"] . ")'>Excluir</button></td><td><button style='background-color: green; border-radius: 10px;' onclick='atualizarElemento({$linha["id"]},{$linha["nome"]},{$linha["email"]},{$linha["celular"]},{$linha["zap"]})'>Editar</button></td></tr>";
+                $comprados .= "<tr> <td>" . $id . "</td><td>" . $nome . "</td><td>" . $email . "</td><td>" . $celular . "</td><td><i style='font-size: 30px; color: green;' class='bi bi-whatsapp'></i></td><td><button style='background-color: red; border-radius: 10px;' onclick='removerElemento(" . $linha["id"] . ")'>Excluir</button></td><td><button style='background-color: green; border-radius: 10px;' onclick='atualizarElemento(\"{$linha["id"]}\",\"{$linha["nome"]}\",\"{$linha["email"]}\",\"{$linha["celular"]}\",\"{$linha["zap"]}\")'>Editar</button></td></tr>";
             }else{
-                $comprados .= "<tr> <td>" . $id . "</td><td>" . $nome . "</td><td>" . $email . "</td><td>" . $celular . "</td><td><i style='font-size: 30px; color: rgb(0, 81, 255);' class='bi bi-telephone-fill'></i></td><td><button style='background-color: red; border-radius: 10px;' onclick='removerElemento(" . $linha["id"] . ")'>Excluir</button></td><td><button style='background-color: green; border-radius: 10px;' id='edit'>Editar</button></td></tr>";
-        
+                $comprados .= "<tr> <td>" . $id . "</td><td>" . $nome . "</td><td>" . $email . "</td><td>" . $celular . "</td><td><i style='font-size: 30px; color: rgb(0, 81, 255);' class='bi bi-telephone-fill'></i></td><td><button style='background-color: red; border-radius: 10px;' onclick='removerElemento(" . $linha["id"] . ")'>Excluir</button></td><td><button style='background-color: green; border-radius: 10px;' onclick='atualizarElemento(\"{$linha["id"]}\",\"{$linha["nome"]}\",\"{$linha["email"]}\",\"{$linha["celular"]}\",\"{$linha["zap"]}\")'>Editar</button></td></tr>";
+
             }
 
         }

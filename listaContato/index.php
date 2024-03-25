@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <!-- Mask Jquery -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js"></script>
 </head>
 
 <body>
@@ -38,7 +38,7 @@
             </div>
             <div class="box1" style="padding: 12px;">
                 <button id="btnCadastrar" style="color: black; font-weight: 400;">Cadastrar</button>
-                <button id="btnEditar" style="color: black; font-weight: 400;">Editar</button>
+                <button id="btnEditar" style="color: black; font-weight: 400;" onclick="SalvarEdicao()">Editar</button>
             </div>
         </div>
 
@@ -46,7 +46,7 @@
             <table class="table" data-bs-theme="dark">
                 <tr>
                     <th>ID</th>
-                    <th>Nome</th>   
+                    <th>Nome</th>
                     <th>Email</th>
                     <th>Celular</th>
                     <th>WhatsApp</th>
@@ -60,9 +60,6 @@
     </div>
 </body>
 <script>
-
-
-
     $(window).on('load', function() {
 
         var tabela = $('#tabela');
@@ -93,9 +90,9 @@
             let email = $('#email').val();
             let tel = $('#tel').val();
             let whats = $('#whats').val();
-            if(whats == 1){
+            if (whats == 1) {
                 var whatsapp = 1;
-            }else{
+            } else {
                 var whatsapp = 0;
             }
 
@@ -127,19 +124,28 @@
 
     let idAtualizar;
 
-    function atualizarElemento(id,nome,email,celular,zap) {
-
+    function atualizarElemento(id, nome, email, tel) {
 
         $('#nome').val(nome);
         $('#email').val(email);
-        $('#celular').val(celular);
-        $('#nome').focus;
-        document.getElementById('btnEditar').style.display = "inline-block";
-        document.getElementById('btnCadastrar').style.display = "none";
+        $('#tel').val(tel);
+        $('#nome').focus();
+        $('#btnEditar').css('display', 'inline-block');
+        $('#btnCadastrar').css('display', 'none');
+        IdAtualizar = id;
+    }
+
+    function SalvarEdicao() {
 
         // Construa a URL com os parâmetros
+        let nome = $('#nome').val();
+        let email = $('#email').val();
+        let tel = $('#tel').val();
+        let whats = $('#whats').val();
+        window.location.href = './PDO/update.php?id=' + IdAtualizar + '&nome=' + nome + '&email=' + email + '&tel=' + tel + '&whatsapp=' + whats;
+        $('#btnCadastrar').css('display', 'inline-block');
+        $('#btnEditar').css('display', 'none');
 
-        // window.location.href = url;
     }
 </script>
 

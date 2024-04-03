@@ -11,7 +11,7 @@ body{
     font-family: 'Oswald', sans-serif;
 }
 header{
-    width: 50vw;
+    width: 60vw;
     background-color: 	white;
     display: flex;
     align-items: center;
@@ -43,7 +43,7 @@ header a{
     right: 0;
 }
 .box{
-    width: 50vw;
+    width: 60vw;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -70,6 +70,8 @@ table{
     width: 30vw !important;
     font-size: 18px;
     display: flex;
+    flex-direction: column;
+    text-align: end;
 }
 
 main{
@@ -78,4 +80,7 @@ main{
 
 label{
     color: white;
+}
+td, tr{
+    text-align: end;
 }

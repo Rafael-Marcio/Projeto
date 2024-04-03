@@ -1,0 +1,81 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 100;
+    background-color: #F7941D !important;
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Oswald', sans-serif;
+}
+header{
+    width: 50vw;
+    background-color: 	white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 24px;
+    padding: 6px;
+}
+header img{
+    border-radius: 10%;
+    margin-left: 2%;
+    width: 20%;
+    height: 60%;
+}
+header h1{
+    font-size: 28px;
+    font-weight: 300;
+    color: rgb(248, 248, 248);
+    margin-left: 1%;
+    font-family: 'Bebas Neue', sans-serif; 
+}
+
+header a{
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    color:white;
+    text-decoration-line: none;
+    position: absolute;
+    margin-right: 3%;
+    right: 0;
+}
+.box{
+    width: 50vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 5vh;
+}
+
+.box p{
+    color: black;
+    font-size: 20px;
+}
+
+.box1{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    font-size: 24px;
+}
+
+input{
+    font-size: 18px !important;
+}
+table{
+    width: 30vw !important;
+    font-size: 18px;
+    display: flex;
+}
+
+main{
+    background-color: #004A8D;
+}
+
+label{
+    color: white;
+}

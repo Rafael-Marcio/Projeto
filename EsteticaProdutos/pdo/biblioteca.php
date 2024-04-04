@@ -5,6 +5,7 @@
     date_default_timezone_set('America/Sao_Paulo');
     $data_hoje = utf8_encode(strftime('%A, %d de %B de %Y ', strtotime('today')));
     $hora_atual = date('H:i:s');
+    $dataAgora = date('d/m/Y');
     //echo $data_hoje;
     //echo $hora_atual;
 

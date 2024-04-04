@@ -3,7 +3,7 @@
 
 try {
     //CRIANDO AS CONSTANTES PARA A CONEXAO
-    $host = "127.0.0.1:3306";
+    $host = "172.16.54.174:3310";
     $username = "root";
     $password = "";
     $DB_PORT = "3310";

@@ -27,6 +27,7 @@ $res = $user->fetchAll(PDO::FETCH_ASSOC);
 $Nome = $res[0]["Nome"];
 $passcripto = $res[0]["senhaCripto"];
 $Curso = $res[0]["idcurso"];
+$idUser = $res[0]["idUser"];
 $senhacriptografada = md5($password);
  
 if($senhacriptografada == $passcripto){
@@ -34,6 +35,7 @@ if($senhacriptografada == $passcripto){
     $_SESSION['email'] = $email;
     $_SESSION['Nome'] = $Nome;
     $_SESSION['Curso'] = $Curso;
+    $_SESSION['idUser'] = $idUser;
 //    header('Location:'. $url_sistema . 'principal.php');
     echo"Foi";
 } else {

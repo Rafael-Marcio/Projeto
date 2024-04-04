@@ -14,13 +14,11 @@ body{
     justify-content: center;
     align-items: center;
     font-weight: 100;
-    background-image: url("../imagens/fundo.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-color: #F7941D;
     width: 100vw;
     height: 100vh;
     font-family: 'Oswald', sans-serif;
+
 
 }
 
@@ -75,7 +73,7 @@ main{
     align-items: center;
     width: 400px;
     height: 270px;
-    background: rgba( 255, 250, 250, 0.05 );
+    background: #004A8D;
     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
     backdrop-filter: blur( 4.5px );
     -webkit-backdrop-filter: blur( 4.5px );
@@ -112,12 +110,12 @@ form{
 
 ::placeholder{
     font-family: 'Cairo', sans-serif;
-    color: white;
+    color: black;
 }
 
 input{
-    color:black;
-    background: transparent;
+    color:black !important;
+    background-color: white;
     width: 18vw;
     height: 4vh;
     display: flex;

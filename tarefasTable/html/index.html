@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="pt-br" data-bs-theme="dark" >
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Estruturado MYSQL</title>
+    <link rel="shortcut icon" type="image/ico" href="./images/senac.ico"/>
+    <link href="./bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!-- <link href="./css/limpo.css" rel="stylesheet"> -->
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="./vendor/materialize/css/materialize.min.css"  media="screen,projection"/>
+
+  </head>
+  <body class="container" >
+
+    {header}
+    <header>
+      
+      <button id="btnAdd" name="btnAdd"><a style="text-decoration: none;" href="./pdo/attEadd.php">Adicionar</a></button>
+      <button id="btnEdi" name="btnEdi" style="display: none;">Atualizar</button>
+    </header>
+
+    <table>
+      <thead>
+        <th scope="col">id</th>
+        <th scope="col">Tarefa</th>
+        <th scope="col">data</th>
+        <th scope="col">hora</th>
+      </thead>
+      <tbody id="tabela">
+        {registrosDaTabela}
+      </tbody>
+    </table>
+    {footer}
+    <!-- Bootstrap JS -->
+    <script src="./bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- materialize JS -->
+    <!-- <script type="text/javascript" src="./vendor/materialize/js/materialize.min.js"></script> -->
+    <!-- JavaScript Arquivo -->
+
+  </body>
+  <script type="text/javascript">
+    var idTarefa = "";
+    $(document).ready(function(){
+      
+      $("#btnSave").click(function(){
+        let tabela = document.getElementById("tabela").outerHTML;
+        var descricao = $("#txtDescricao").val();
+        var data = $("#txtData").val();
+        var hora = $("#txtHora").val();
+        var dadosAdd = {
+          descricao: descricao, data: data, hora: hora, action: "adicionar"
+        };
+        $.ajax({
+          url:"./pdo/attEadd.php",
+          type: "POST",
+          data: dadosAdd,
+          success: function(response){
+            console.log("Retorno da resposta:" + response);
+            // tabela.innerHTML = response;
+            window.location.reload();
+          }
+        })
+      })
+
+      //Atualizar
+      $("#btnEdi").click(function(){
+        var descricao = $("#txtDescricao").val();
+        var data = $("#txtData").val();
+        var hora = $("#txtHora").val();
+        var dadosAdd = {
+          id: idTarefa, descricao: descricao, data: data, hora: hora, action: "editar"
+        };
+        $.ajax({
+          url:"./pdo/attEadd.php",
+          type: "POST",
+          data: dadosAdd,
+          success: function(response){
+            console.log("Retorno da resposta:" + response);
+            //tabela.innerHTML = response;
+            // window.location.reload();
+          }
+        })
+      })
+
+      $(document).on("click","#btnDel", function(){
+        var idTarefa = $(this).data("id");
+        var dadosAdd = {
+          idTarefa: idTarefa, action: "deletar"
+        };
+        $.ajax({
+          url:"./index.php",
+          type: "POST",
+          data: dadosAdd,
+          success: function(response){
+            console.log("Retorno da resposta:" + response);
+            //tabela.innerHTML = response;
+            window.location.reload();
+          }
+        })
+      })
+
+    })
+
+    function NovoForm(id){
+      window.location.href = "./pdo/attEadd.php?id=" + id;
+    }
+  </script>
+</html>

@@ -1,0 +1,35 @@
+<form id='frm_Post' method="post">
+<!-- Modal -->
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content ">
+            <div class="modal-header">
+              <h1 class="modal-title fs-4" id="staticBackdropLabel">Cadastrando Post</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body p-5 d-flex justify-content-center flex-column align-items-center">
+              <div class="mb-3 w-100">
+                <label for="post" class="form-label fs-4">Post:</label>
+                <input type="text" class="form-control form-control-lg " id="post" name="post" placeholder="Digite seu Post">
+              </div>
+              <div class="mb-3 w-100">
+                <label for="data" class="form-label fs-4">Data:</label>
+                <input type="date" class="form-control form-control-lg " id="data" name="data" placeholder="Digite a Data">
+              </div>
+              <div class="mb-3 w-100">
+                <label for="hora" class="form-label fs-4">Hora:</label>
+                <input type="time" class="form-control form-control-lg" id="hora" name="hora" placeholder="Digite a Hora">
+              </div>
+              
+              
+            </div>
+            <div class="modal-footer">
+           
+              <button id = 'btnSalvarPost' type="button" class="btn btn-danger m-3">Salvar</button>
+              <button type="button" class="btn btn-success m-3" data-bs-dismiss="modal">Cancelar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+</form>

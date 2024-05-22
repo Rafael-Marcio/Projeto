@@ -1,0 +1,472 @@
+09-05-2024 13:37:45 - Rafael executou a seguinte instrução SQL:  SELECT * FROM users WHERE email = :email and senha =  :senha
+09-05-2024 13:35:26 - Rafael executou a seguinte instrução SQL:  SELECT * FROM users WHERE email = :email and senha =  :senha
+09-05-2024 13:29:30 - Rafael executou a seguinte instrução SQL:  SELECT * FROM users WHERE email = :email and senha =  :senha
+09-05-2024 13:29:14 - Rafael executou a seguinte instrução SQL:  SELECT * FROM users WHERE email = :email and senha =  :senha
+09-05-2024 13:29:07 - Rafael executou a seguinte instrução SQL:  SELECT * FROM users WHERE email = :email and senha =  :senha
+08-05-2024 16:41:25 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+08-05-2024 16:41:22 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+08-05-2024 16:40:35 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+08-05-2024 16:40:32 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+08-05-2024 16:38:43 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+08-05-2024 16:38:40 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+08-05-2024 16:37:40 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+08-05-2024 16:37:37 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+08-05-2024 16:36:32 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+08-05-2024 16:36:29 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+08-05-2024 16:36:04 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+08-05-2024 16:36:01 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+08-05-2024 16:35:55 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+08-05-2024 16:35:52 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+08-05-2024 16:35:35 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+08-05-2024 16:35:32 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+08-05-2024 16:35:25 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+08-05-2024 16:35:22 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+08-05-2024 16:35:17 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+08-05-2024 16:35:14 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+08-05-2024 16:35:07 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+08-05-2024 16:35:04 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+08-05-2024 16:34:24 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+08-05-2024 16:34:21 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+08-05-2024 16:34:14 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+08-05-2024 16:34:11 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+08-05-2024 16:34:05 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+08-05-2024 16:34:02 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+08-05-2024 16:33:40 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+08-05-2024 16:33:37 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+08-05-2024 16:33:31 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+08-05-2024 16:33:28 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+08-05-2024 16:33:02 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+08-05-2024 16:32:59 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+08-05-2024 16:32:56 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+08-05-2024 16:32:53 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+08-05-2024 16:32:53 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+08-05-2024 16:32:46 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+08-05-2024 16:32:43 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+08-05-2024 16:31:44 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+08-05-2024 16:31:41 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+08-05-2024 16:31:34 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+08-05-2024 16:31:34 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+08-05-2024 16:31:34 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+08-05-2024 16:31:33 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+08-05-2024 16:31:32 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+08-05-2024 16:31:08 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+08-05-2024 16:31:04 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+08-05-2024 16:29:32 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+08-05-2024 16:29:29 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+08-05-2024 16:29:27 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+08-05-2024 16:29:24 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+08-05-2024 16:28:54 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+08-05-2024 16:28:51 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+08-05-2024 16:28:49 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+08-05-2024 16:28:46 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+08-05-2024 16:28:44 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+08-05-2024 16:28:41 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+08-05-2024 16:28:38 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+08-05-2024 16:28:35 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+08-05-2024 16:28:29 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+08-05-2024 16:28:26 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+08-05-2024 16:26:34 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+08-05-2024 16:26:30 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+08-05-2024 16:26:30 - Rafael executou a seguinte instrução SQL:  SELECT * FROM users WHERE email = :email and senha =  :senha
+08-05-2024 16:26:24 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+08-05-2024 16:26:21 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+08-05-2024 16:24:58 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+08-05-2024 16:24:55 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+08-05-2024 16:24:52 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+08-05-2024 16:24:49 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+08-05-2024 16:24:47 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+08-05-2024 16:24:44 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+08-05-2024 16:24:44 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+08-05-2024 16:24:43 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+08-05-2024 16:24:37 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+08-05-2024 16:24:34 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+08-05-2024 16:24:33 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+08-05-2024 16:24:33 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+08-05-2024 16:24:33 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+08-05-2024 16:24:33 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+08-05-2024 16:24:31 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+08-05-2024 16:24:26 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+08-05-2024 16:24:23 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+08-05-2024 16:24:21 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+08-05-2024 16:24:18 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+08-05-2024 16:24:18 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+08-05-2024 16:24:14 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+08-05-2024 16:24:12 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+08-05-2024 16:24:09 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+08-05-2024 16:24:03 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+08-05-2024 16:23:59 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+08-05-2024 16:23:59 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+08-05-2024 16:23:59 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+08-05-2024 16:23:59 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+08-05-2024 16:23:58 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+08-05-2024 16:23:58 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+08-05-2024 16:23:56 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+08-05-2024 16:23:43 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+08-05-2024 16:23:40 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+08-05-2024 16:23:26 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+08-05-2024 16:23:22 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+08-05-2024 16:23:22 - Rafael executou a seguinte instrução SQL:  SELECT * FROM users WHERE email = :email and senha =  :senha
+08-05-2024 16:21:29 - Rafael executou a seguinte instrução SQL:  SELECT * FROM users WHERE email = :email and senha =  :senha
+08-05-2024 16:21:16 - Rafael executou a seguinte instrução SQL:  SELECT * FROM users WHERE email = :email and senha =  :senha
+08-05-2024 16:18:56 - Rafael executou a seguinte instrução SQL:  SELECT * FROM users WHERE email = :email and senha =  :senha
+08-05-2024 16:18:42 - Rafael executou a seguinte instrução SQL:  SELECT * FROM users WHERE email = :email and senha =  :senha
+08-05-2024 16:18:38 - Rafael executou a seguinte instrução SQL:  SELECT * FROM users WHERE email = :email and senha =  :senha
+08-05-2024 16:18:38 - Rafael executou a seguinte instrução SQL:  SELECT * FROM users WHERE email = :email and senha =  :senha
+08-05-2024 16:18:16 - Rafael executou a seguinte instrução SQL:  SELECT * FROM users WHERE email = :email and senha =  :senha
+08-05-2024 16:17:49 - Rafael executou a seguinte instrução SQL:  SELECT * FROM users WHERE email = :email and senha =  :senha
+08-05-2024 16:17:38 - Rafael executou a seguinte instrução SQL:  SELECT * FROM users WHERE email = :email and senha =  :senha
+08-05-2024 16:17:12 - Rafael executou a seguinte instrução SQL:  SELECT * FROM users WHERE email = :email and senha =  :senha
+08-05-2024 16:16:46 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+08-05-2024 16:16:43 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+08-05-2024 16:16:43 - Rafael executou a seguinte instrução SQL:  SELECT * FROM users WHERE email = :email and senha =  :senha
+08-05-2024 16:15:29 - Rafael executou a seguinte instrução SQL:  SELECT * FROM users WHERE email = :email and senha =  :senha
+08-05-2024 16:15:29 - Rafael executou a seguinte instrução SQL:  SELECT * FROM users WHERE email = :email and senha =  :senha
+08-05-2024 16:15:21 - Rafael executou a seguinte instrução SQL:  SELECT * FROM users WHERE email = :email and senha =  :senha
+08-05-2024 16:15:21 - Rafael executou a seguinte instrução SQL:  SELECT * FROM users WHERE email = :email and senha =  :senha
+08-05-2024 16:15:21 - Rafael executou a seguinte instrução SQL:  SELECT * FROM users WHERE email = :email and senha =  :senha
+08-05-2024 16:15:14 - Rafael executou a seguinte instrução SQL:  SELECT * FROM users WHERE email = :email and senha =  :senha
+08-05-2024 16:14:58 - Rafael executou a seguinte instrução SQL:  SELECT * FROM users WHERE email = :email and senha =  :senha
+08-05-2024 16:14:23 - Rafael executou a seguinte instrução SQL:  SELECT * FROM users WHERE email = :email and senha =  :senha
+08-05-2024 16:14:21 - Rafael executou a seguinte instrução SQL:  SELECT * FROM users WHERE email = :email and senha =  :senha
+08-05-2024 16:10:35 - Rafael executou a seguinte instrução SQL:  SELECT * FROM users WHERE email = :email and senha =  :senha
+08-05-2024 16:10:34 - Rafael executou a seguinte instrução SQL:  SELECT * FROM users WHERE email = :email and senha =  :senha
+08-05-2024 16:10:34 - Rafael executou a seguinte instrução SQL:  SELECT * FROM users WHERE email = :email and senha =  :senha
+08-05-2024 16:10:34 - Rafael executou a seguinte instrução SQL:  SELECT * FROM users WHERE email = :email and senha =  :senha
+08-05-2024 16:10:34 - Rafael executou a seguinte instrução SQL:  SELECT * FROM users WHERE email = :email and senha =  :senha
+08-05-2024 16:10:33 - Rafael executou a seguinte instrução SQL:  SELECT * FROM users WHERE email = :email and senha =  :senha
+08-05-2024 16:10:33 - Rafael executou a seguinte instrução SQL:  SELECT * FROM users WHERE email = :email and senha =  :senha
+08-05-2024 16:10:33 - Rafael executou a seguinte instrução SQL:  SELECT * FROM users WHERE email = :email and senha =  :senha
+08-05-2024 16:10:33 - Rafael executou a seguinte instrução SQL:  SELECT * FROM users WHERE email = :email and senha =  :senha
+08-05-2024 16:10:33 - Rafael executou a seguinte instrução SQL:  SELECT * FROM users WHERE email = :email and senha =  :senha
+08-05-2024 16:10:31 - Rafael executou a seguinte instrução SQL:  SELECT * FROM users WHERE email = :email and senha =  :senha
+08-05-2024 16:10:23 - Rafael executou a seguinte instrução SQL:  SELECT * FROM users WHERE email = :email and senha =  :senha
+08-05-2024 16:10:23 - Rafael executou a seguinte instrução SQL:  SELECT * FROM users WHERE email = :email and senha =  :senha
+08-05-2024 16:10:23 - Rafael executou a seguinte instrução SQL:  SELECT * FROM users WHERE email = :email and senha =  :senha
+08-05-2024 16:10:23 - Rafael executou a seguinte instrução SQL:  SELECT * FROM users WHERE email = :email and senha =  :senha
+08-05-2024 16:10:23 - Rafael executou a seguinte instrução SQL:  SELECT * FROM users WHERE email = :email and senha =  :senha
+08-05-2024 16:10:22 - Rafael executou a seguinte instrução SQL:  SELECT * FROM users WHERE email = :email and senha =  :senha
+08-05-2024 16:10:22 - Rafael executou a seguinte instrução SQL:  SELECT * FROM users WHERE email = :email and senha =  :senha
+08-05-2024 16:10:22 - Rafael executou a seguinte instrução SQL:  SELECT * FROM users WHERE email = :email and senha =  :senha
+08-05-2024 16:09:59 - Rafael executou a seguinte instrução SQL:  SELECT * FROM users WHERE email = :email and senha =  :senha
+08-05-2024 16:09:59 - Rafael executou a seguinte instrução SQL:  SELECT * FROM users WHERE email = :email and senha =  :senha
+08-05-2024 16:09:59 - Rafael executou a seguinte instrução SQL:  SELECT * FROM users WHERE email = :email and senha =  :senha
+08-05-2024 16:09:58 - Rafael executou a seguinte instrução SQL:  SELECT * FROM users WHERE email = :email and senha =  :senha
+08-05-2024 16:09:58 - Rafael executou a seguinte instrução SQL:  SELECT * FROM users WHERE email = :email and senha =  :senha
+08-05-2024 16:09:58 - Rafael executou a seguinte instrução SQL:  SELECT * FROM users WHERE email = :email and senha =  :senha
+08-05-2024 16:09:58 - Rafael executou a seguinte instrução SQL:  SELECT * FROM users WHERE email = :email and senha =  :senha
+08-05-2024 16:09:57 - Rafael executou a seguinte instrução SQL:  SELECT * FROM users WHERE email = :email and senha =  :senha
+08-05-2024 16:09:57 - Rafael executou a seguinte instrução SQL:  SELECT * FROM users WHERE email = :email and senha =  :senha
+08-05-2024 16:09:56 - Rafael executou a seguinte instrução SQL:  SELECT * FROM users WHERE email = :email and senha =  :senha
+08-05-2024 16:09:56 - Rafael executou a seguinte instrução SQL:  SELECT * FROM users WHERE email = :email and senha =  :senha
+08-05-2024 16:09:55 - Rafael executou a seguinte instrução SQL:  SELECT * FROM users WHERE email = :email and senha =  :senha
+08-05-2024 16:09:33 - Rafael executou a seguinte instrução SQL:  SELECT * FROM users WHERE email = :email and senha =  :senha
+08-05-2024 16:09:32 - Rafael executou a seguinte instrução SQL:  SELECT * FROM users WHERE email = :email and senha =  :senha
+08-05-2024 16:09:30 - Rafael executou a seguinte instrução SQL:  SELECT * FROM users WHERE email = :email and senha =  :senha
+08-05-2024 16:09:05 - Rafael executou a seguinte instrução SQL:  SELECT * FROM users WHERE email = :email and senha =  :senha
+08-05-2024 16:08:54 - Rafael executou a seguinte instrução SQL:  SELECT * FROM users WHERE email = :email and senha =  :senha
+08-05-2024 16:07:54 - Rafael executou a seguinte instrução SQL:  SELECT * FROM users WHERE email = :email and senha =  :senha
+08-05-2024 16:06:57 - Rafael executou a seguinte instrução SQL:  SELECT * FROM users WHERE email = :email and senha =  :senha
+08-05-2024 16:06:22 - Rafael executou a seguinte instrução SQL:  SELECT * FROM users WHERE email = :email and senha =  :senha
+08-05-2024 16:05:54 - Rafael executou a seguinte instrução SQL:  SELECT * FROM users WHERE email = :email and senha =  :senha
+08-05-2024 16:05:38 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+08-05-2024 16:05:35 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+08-05-2024 16:05:35 - Rafael executou a seguinte instrução SQL:  SELECT * FROM users WHERE email = :email and senha =  :senha
+08-05-2024 16:05:24 - Rafael executou a seguinte instrução SQL:  SELECT * FROM users WHERE email = :email and senha =  :senha
+08-05-2024 16:04:22 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+08-05-2024 16:04:19 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+08-05-2024 16:03:26 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+08-05-2024 16:03:23 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+08-05-2024 16:03:23 - Rafael executou a seguinte instrução SQL:  SELECT * FROM users WHERE email = :email and senha =  :senha
+08-05-2024 16:03:15 - Rafael executou a seguinte instrução SQL:  SELECT * FROM users WHERE email = :email and senha =  :senha
+08-05-2024 16:02:56 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+08-05-2024 16:02:53 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+08-05-2024 16:02:53 - Rafael executou a seguinte instrução SQL:  SELECT * FROM users WHERE email = :email and senha =  :senha
+08-05-2024 15:48:33 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+08-05-2024 15:48:30 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+08-05-2024 15:47:52 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+08-05-2024 15:47:49 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+08-05-2024 15:00:05 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+08-05-2024 15:00:02 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+08-05-2024 14:39:17 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+08-05-2024 14:39:14 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+08-05-2024 14:30:22 - Rafael executou a seguinte instrução SQL:  INSERT INTO posts (id,posts,data,hora,like,deslike) VALUES (132,'PHP4', '11/05/2024', '11:00', 1, 0)
+08-05-2024 14:30:22 - Rafael executou a seguinte instrução SQL:  SELECT max(id) as next FROM posts
+08-05-2024 14:30:22 - Rafael executou a seguinte instrução SQL:  INSERT INTO posts (id,posts,data,hora,like,deslike) VALUES (131,'PHP3', '11/05/2024', '11:00', 1, 0)
+08-05-2024 14:30:22 - Rafael executou a seguinte instrução SQL:  SELECT max(id) as next FROM posts
+08-05-2024 14:30:22 - Rafael executou a seguinte instrução SQL:  INSERT INTO posts (id,posts,data,hora,like,deslike) VALUES (130,'PHP2', '11/05/2024', '11:00', 1, 0)
+08-05-2024 14:30:22 - Rafael executou a seguinte instrução SQL:  SELECT max(id) as next FROM posts
+08-05-2024 14:30:22 - Rafael executou a seguinte instrução SQL:  INSERT INTO posts (id,posts,data,hora,like,deslike) VALUES (129,'PHP teste', '11/05/2024', '11:00', 1, 0)
+08-05-2024 14:30:22 - Rafael executou a seguinte instrução SQL:  SELECT max(id) as next FROM posts
+08-05-2024 14:30:22 - Rafael executou a seguinte instrução SQL:  INSERT INTO posts (id,posts,data,hora,like,deslike) VALUES (128,'PHP1', '11/05/2024', '11:00', 1, 0)
+08-05-2024 14:30:22 - Rafael executou a seguinte instrução SQL:  SELECT max(id) as next FROM posts
+08-05-2024 14:29:32 - Rafael executou a seguinte instrução SQL:  SELECT * FROM users WHERE email = 'rafael@gmail.com' and senha =  '123'
+08-05-2024 14:19:49 - Rafael executou a seguinte instrução SQL:  SELECT * FROM users WHERE email = 'rafael@gmail.com' and senha =  '123'
+08-05-2024 14:18:54 - Rafael executou a seguinte instrução SQL:  SELECT * FROM users WHERE email = rafael@gmail.com and senha = 123
+08-05-2024 14:18:42 - Rafael executou a seguinte instrução SQL:  SELECT * FROM users WHERE email = rafael@gmail.com and senha = 123
+08-05-2024 14:18:42 - Rafael executou a seguinte instrução SQL:  SELECT * FROM users WHERE email = rafael@gmail.com and senha = 123
+08-05-2024 14:18:05 - Rafael executou a seguinte instrução SQL:  SELECT * FROM users WHERE email = rafael@gmail.com and senha = 123
+08-05-2024 14:17:34 - Rafael executou a seguinte instrução SQL:  SELECT * FROM users WHERE email = rafael@gmail.com and senha = 123
+08-05-2024 14:17:33 - Rafael executou a seguinte instrução SQL:  SELECT * FROM users WHERE email = rafael@gmail.com and senha = 123
+08-05-2024 14:17:33 - Rafael executou a seguinte instrução SQL:  SELECT * FROM users WHERE email = rafael@gmail.com and senha = 123
+08-05-2024 14:15:54 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts WHERE email = rafael@gmail.com and senha = 123
+08-05-2024 14:15:47 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts WHERE email = rafael@gmail.com and senha = 123
+08-05-2024 13:38:15 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+08-05-2024 13:38:12 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+08-05-2024 13:30:15 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+08-05-2024 13:30:12 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+08-05-2024 13:29:30 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+08-05-2024 13:29:27 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+08-05-2024 13:29:07 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+08-05-2024 13:29:04 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+08-05-2024 13:28:08 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+08-05-2024 13:28:05 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+08-05-2024 13:26:36 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+08-05-2024 13:26:33 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+08-05-2024 13:26:21 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+08-05-2024 13:26:18 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+08-05-2024 13:26:05 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+08-05-2024 13:26:02 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+08-05-2024 13:25:49 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+08-05-2024 13:25:46 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+08-05-2024 13:25:34 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+08-05-2024 13:25:30 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+08-05-2024 13:25:02 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+08-05-2024 13:24:59 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+08-05-2024 13:24:50 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+08-05-2024 13:22:56 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+08-05-2024 13:22:53 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+08-05-2024 13:21:40 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+08-05-2024 13:21:37 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+08-05-2024 13:21:13 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+08-05-2024 13:21:09 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+08-05-2024 13:21:04 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+08-05-2024 13:21:01 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+08-05-2024 13:20:36 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+08-05-2024 13:20:33 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+08-05-2024 13:20:33 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+08-05-2024 13:20:32 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+08-05-2024 13:20:32 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+08-05-2024 13:20:32 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+08-05-2024 13:20:30 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+08-05-2024 13:19:40 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+08-05-2024 13:19:37 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+08-05-2024 13:19:36 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+08-05-2024 13:19:36 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+08-05-2024 13:19:33 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+08-05-2024 13:19:04 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+08-05-2024 13:19:01 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+08-05-2024 13:18:58 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+08-05-2024 13:17:44 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+08-05-2024 13:17:41 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+08-05-2024 13:15:11 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+08-05-2024 13:15:08 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+08-05-2024 13:13:17 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+08-05-2024 13:13:14 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+08-05-2024 13:12:45 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+08-05-2024 13:12:42 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+08-05-2024 13:12:05 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+08-05-2024 13:12:01 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+08-05-2024 13:10:42 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+08-05-2024 13:10:38 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+08-05-2024 13:09:20 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+08-05-2024 13:09:04 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+08-05-2024 13:05:31 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+08-05-2024 13:04:54 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+08-05-2024 13:03:34 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+08-05-2024 13:02:45 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+08-05-2024 13:02:05 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+08-05-2024 13:01:56 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+08-05-2024 13:01:55 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+08-05-2024 13:01:43 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+07-05-2024 16:49:48 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+07-05-2024 16:49:10 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+07-05-2024 16:48:30 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+07-05-2024 16:47:47 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+07-05-2024 16:46:51 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+07-05-2024 16:45:30 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+07-05-2024 16:45:22 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+07-05-2024 16:39:40 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+07-05-2024 16:39:30 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts
+07-05-2024 16:38:17 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+07-05-2024 16:14:28 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+07-05-2024 16:10:44 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+07-05-2024 16:02:21 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+07-05-2024 15:59:35 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+07-05-2024 15:54:07 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+07-05-2024 15:54:06 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+07-05-2024 15:54:06 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+07-05-2024 15:54:05 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+07-05-2024 15:53:49 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+07-05-2024 15:53:49 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+07-05-2024 15:53:49 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+07-05-2024 15:53:48 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+07-05-2024 15:53:48 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+07-05-2024 14:45:30 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+07-05-2024 14:45:29 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+07-05-2024 14:45:29 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+07-05-2024 14:45:20 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+07-05-2024 14:45:15 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+07-05-2024 14:45:00 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+07-05-2024 14:44:28 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+07-05-2024 14:44:10 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+07-05-2024 14:44:04 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+07-05-2024 14:44:04 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+07-05-2024 14:43:58 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+07-05-2024 14:43:13 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+07-05-2024 14:43:12 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+07-05-2024 14:43:07 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+07-05-2024 14:43:05 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+07-05-2024 14:43:02 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+07-05-2024 14:42:55 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+07-05-2024 14:42:54 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+07-05-2024 14:42:25 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+07-05-2024 14:42:16 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+07-05-2024 14:41:57 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+07-05-2024 14:41:44 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+07-05-2024 14:41:42 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+07-05-2024 14:41:32 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+07-05-2024 14:41:21 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+07-05-2024 14:41:00 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+07-05-2024 14:40:54 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+07-05-2024 14:40:31 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+07-05-2024 14:40:26 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+07-05-2024 14:40:09 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+07-05-2024 14:39:49 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+07-05-2024 14:39:43 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+07-05-2024 14:39:25 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+07-05-2024 14:39:07 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+07-05-2024 14:38:46 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+07-05-2024 14:38:29 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+07-05-2024 14:37:58 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+07-05-2024 14:37:58 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+07-05-2024 14:37:46 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+07-05-2024 14:28:32 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+07-05-2024 14:28:32 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+07-05-2024 14:28:32 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+07-05-2024 14:28:32 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+07-05-2024 14:28:04 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+07-05-2024 14:28:04 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+07-05-2024 14:28:04 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+07-05-2024 14:28:03 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+07-05-2024 14:27:58 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+07-05-2024 14:27:38 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+07-05-2024 14:27:37 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+07-05-2024 14:26:45 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+07-05-2024 14:26:30 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+07-05-2024 14:26:29 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+07-05-2024 14:26:29 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+07-05-2024 14:26:29 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+07-05-2024 14:26:28 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+07-05-2024 14:25:01 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+07-05-2024 14:25:01 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+07-05-2024 14:25:01 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+07-05-2024 14:20:39 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts LIMIT 10
+07-05-2024 14:18:28 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts
+07-05-2024 14:17:48 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts
+07-05-2024 14:12:20 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts
+07-05-2024 13:20:25 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts
+06-05-2024 13:22:59 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts
+06-05-2024 13:22:49 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts
+06-05-2024 13:22:36 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts
+06-05-2024 13:22:30 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts
+06-05-2024 13:22:22 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts
+06-05-2024 13:22:22 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts
+06-05-2024 13:17:43 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts
+06-05-2024 13:17:43 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts
+06-05-2024 13:17:39 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts
+06-05-2024 13:17:39 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts
+06-05-2024 13:17:34 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts
+06-05-2024 13:17:34 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts
+06-05-2024 13:17:33 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts
+06-05-2024 13:17:33 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts
+06-05-2024 13:16:02 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts
+06-05-2024 13:11:41 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts
+03-05-2024 16:33:47 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts
+03-05-2024 16:33:17 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts
+03-05-2024 16:33:17 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts
+03-05-2024 16:33:17 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts
+03-05-2024 16:32:58 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts
+03-05-2024 16:32:58 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts
+03-05-2024 16:32:58 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts
+03-05-2024 16:32:57 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts
+03-05-2024 16:32:13 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts
+03-05-2024 16:32:13 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts
+03-05-2024 16:32:12 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts
+03-05-2024 16:31:33 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts
+03-05-2024 16:31:32 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts
+03-05-2024 16:31:32 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts
+03-05-2024 16:31:24 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts
+03-05-2024 16:31:16 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts
+03-05-2024 16:31:15 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts
+03-05-2024 16:30:21 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts
+03-05-2024 16:30:21 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts
+03-05-2024 16:30:21 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts
+03-05-2024 16:30:10 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts
+03-05-2024 16:30:05 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts
+03-05-2024 16:29:58 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts
+03-05-2024 16:29:57 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts
+03-05-2024 16:29:57 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts
+03-05-2024 16:29:47 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts
+03-05-2024 16:29:47 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts
+03-05-2024 16:29:43 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts
+03-05-2024 16:29:43 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts
+03-05-2024 16:29:43 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts
+03-05-2024 16:29:40 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts
+03-05-2024 16:29:39 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts
+03-05-2024 16:29:34 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts
+03-05-2024 16:29:33 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts
+03-05-2024 16:29:24 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts
+03-05-2024 16:29:23 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts
+03-05-2024 16:29:23 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts
+03-05-2024 16:29:23 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts
+03-05-2024 16:28:59 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts
+03-05-2024 16:28:59 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts
+03-05-2024 16:28:54 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts
+03-05-2024 16:28:54 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts
+03-05-2024 16:28:54 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts
+03-05-2024 16:28:50 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts
+03-05-2024 16:28:50 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts
+03-05-2024 16:28:46 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts
+03-05-2024 16:28:40 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts
+03-05-2024 16:28:40 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts
+03-05-2024 16:28:35 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts
+03-05-2024 16:27:17 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts
+03-05-2024 16:26:42 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts
+03-05-2024 16:26:42 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts
+03-05-2024 16:26:42 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts
+03-05-2024 16:26:42 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts
+03-05-2024 16:26:17 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts
+03-05-2024 16:25:06 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts
+03-05-2024 16:24:32 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts
+03-05-2024 16:23:34 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts
+03-05-2024 16:23:34 - Rafael executou a seguinte instrução SQL:  SELECT * FROM posts
+03-05-2024 14:13:56 - Rafael executou a seguinte instrução SQL:  INSERT INTO posts (id,posts,data,hora,like,deslike) VALUES (127,'PHP', '11/05/2024', '11:00', 1, 0)
+03-05-2024 14:13:56 - Rafael executou a seguinte instrução SQL:  SELECT max(id) as next FROM posts
+03-05-2024 14:13:56 - Rafael executou a seguinte instrução SQL:  INSERT INTO posts (id,posts,data,hora,like,deslike) VALUES (126,'PHP', '11/05/2024', '11:00', 1, 0)
+03-05-2024 14:13:56 - Rafael executou a seguinte instrução SQL:  SELECT max(id) as next FROM posts
+03-05-2024 14:13:56 - Rafael executou a seguinte instrução SQL:  INSERT INTO posts (id,posts,data,hora,like,deslike) VALUES (125,'PHP2', '11/05/2024', '11:00', 1, 0)
+03-05-2024 14:13:56 - Rafael executou a seguinte instrução SQL:  SELECT max(id) as next FROM posts
+03-05-2024 14:13:56 - Rafael executou a seguinte instrução SQL:  INSERT INTO posts (id,posts,data,hora,like,deslike) VALUES (124,'PHP teste', '11/05/2024', '11:00', 1, 0)
+03-05-2024 14:13:56 - Rafael executou a seguinte instrução SQL:  SELECT max(id) as next FROM posts
+03-05-2024 14:13:56 - Rafael executou a seguinte instrução SQL:  INSERT INTO posts (id,posts,data,hora,like,deslike) VALUES (123,'PHP', '11/05/2024', '11:00', 1, 0)
+03-05-2024 14:13:56 - Rafael executou a seguinte instrução SQL:  SELECT max(id) as next FROM posts
+03-05-2024 14:13:52 - Rafael executou a seguinte instrução SQL:  INSERT INTO posts (id,posts,data,hora,like,deslike) VALUES (122,'PHP', '11/05/2024', '11:00', 1, 0)
+03-05-2024 14:13:52 - Rafael executou a seguinte instrução SQL:  SELECT max(id) as next FROM posts
+03-05-2024 14:13:52 - Rafael executou a seguinte instrução SQL:  INSERT INTO posts (id,posts,data,hora,like,deslike) VALUES (121,'PHP', '11/05/2024', '11:00', 1, 0)
+03-05-2024 14:13:52 - Rafael executou a seguinte instrução SQL:  SELECT max(id) as next FROM posts
+03-05-2024 14:13:52 - Rafael executou a seguinte instrução SQL:  INSERT INTO posts (id,posts,data,hora,like,deslike) VALUES (120,'PHP2', '11/05/2024', '11:00', 1, 0)
+03-05-2024 14:13:52 - Rafael executou a seguinte instrução SQL:  SELECT max(id) as next FROM posts
+03-05-2024 14:13:52 - Rafael executou a seguinte instrução SQL:  INSERT INTO posts (id,posts,data,hora,like,deslike) VALUES (119,'PHP teste', '11/05/2024', '11:00', 1, 0)
+03-05-2024 14:13:52 - Rafael executou a seguinte instrução SQL:  SELECT max(id) as next FROM posts
+03-05-2024 14:13:52 - Rafael executou a seguinte instrução SQL:  INSERT INTO posts (id,posts,data,hora,like,deslike) VALUES (118,'PHP', '11/05/2024', '11:00', 1, 0)
+03-05-2024 14:13:52 - Rafael executou a seguinte instrução SQL:  SELECT max(id) as next FROM posts
+03-05-2024 14:13:52 - Rafael executou a seguinte instrução SQL:  INSERT INTO posts (id,posts,data,hora,like,deslike) VALUES (117,'PHP', '11/05/2024', '11:00', 1, 0)
+03-05-2024 14:13:52 - Rafael executou a seguinte instrução SQL:  SELECT max(id) as next FROM posts
+03-05-2024 14:13:52 - Rafael executou a seguinte instrução SQL:  INSERT INTO posts (id,posts,data,hora,like,deslike) VALUES (116,'PHP', '11/05/2024', '11:00', 1, 0)
+03-05-2024 14:13:52 - Rafael executou a seguinte instrução SQL:  SELECT max(id) as next FROM posts
+03-05-2024 14:13:52 - Rafael executou a seguinte instrução SQL:  INSERT INTO posts (id,posts,data,hora,like,deslike) VALUES (115,'PHP2', '11/05/2024', '11:00', 1, 0)
+03-05-2024 14:13:52 - Rafael executou a seguinte instrução SQL:  SELECT max(id) as next FROM posts
+03-05-2024 14:13:52 - Rafael executou a seguinte instrução SQL:  INSERT INTO posts (id,posts,data,hora,like,deslike) VALUES (114,'PHP teste', '11/05/2024', '11:00', 1, 0)
+03-05-2024 14:13:52 - Rafael executou a seguinte instrução SQL:  SELECT max(id) as next FROM posts
+03-05-2024 14:13:52 - Rafael executou a seguinte instrução SQL:  INSERT INTO posts (id,posts,data,hora,like,deslike) VALUES (113,'PHP', '11/05/2024', '11:00', 1, 0)
+03-05-2024 14:13:52 - Rafael executou a seguinte instrução SQL:  SELECT max(id) as next FROM posts

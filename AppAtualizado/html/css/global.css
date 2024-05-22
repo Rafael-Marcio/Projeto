@@ -1,0 +1,15 @@
+.login .link{
+    font-size: 24px;
+    cursor: pointer;
+    text-decoration: none;
+    opacity: 0.6;
+}
+.login .link:hover{
+    color:orange;
+    opacity: 0.9;
+}
+.login img{
+    max-width: 200px;
+    max-height: 100px;
+}
+

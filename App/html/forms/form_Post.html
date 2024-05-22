@@ -1,0 +1,14 @@
+<form method="post" action="./index.php?class=TarefaForm&method=save" class="tarefa">
+        <label for="id">ID:</label>
+        <input type="int" readonly="1" id="id" name="id" value="{id}">
+        <label for="tarefa">Tarefa:</label>
+        <input type="text" id="tarefa" name="tarefa" value="{tarefa}">
+        <label for="data">Data de Execução:</label>
+        <input type="date" id="data" name="data" value="{data}">
+        <label for="hora">Hora de Execução:</label>
+        <input type="time" id="hora" name="hora" value="{hora}">
+        <input type="submit" value="Salvar">
+        <a href='../'>Cancelar</a>
+        <!-- Se Desejar  ->  onclick="window.location='tarefa_form_insert.php'" -->
+        <!-- Recarregar a página após inserção -> window.location.reload() " -->
+</form>

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scal=1.0">
+    <title>Autenticando</title>
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/http.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+
+</head>
+
+<body data-bs-theme="dark">
+
+    {header}
+    <div class="box">
+        <div class="left" style="color: black; font-size: 20px;">{usuario}</div>
+        <div class="mid" style="display: flex; justify-content: center; align-items: center;">
+            <span class="loader" id="loader"></span>
+            <div id="posts" class="posts"
+                style="display: none; color: black; flex-direction: column; align-items: center;  justify-content: center; left: 50%;">
+                {registros}
+            </div>
+        </div>
+        <div class="right">
+            <form id="formPost" method="post" class="boxR">
+                <div class="boxH" style="display: flex; justify-content: space-between;">
+                    <label style="color: black;">Postagem</label><br>
+                    <input id="data" name="data"
+                        style="width: 90px; background-color: white; color: black; font-weight: 500; border: 0px; font-size: 16px; font-weight: 100;">
+                    <input id="hora" name="hora"
+                        style="width: 70px; background-color: white; color: black; font-weight: 500; border: 0px; font-size: 16px; font-weight: 100;">
+                </div>
+                <textarea style="height: 50px; font-size: 15px; background-color: white; color: black;" id="postagem"
+                    name="postagem" type="text"></textarea><br>
+                <input value="Enviar" id="btnPostar" type="submit" style="font-size: 16px;">
+            </form>
+        </div>
+    </div>
+
+    {footer}
+    
+
+
+    <!-- Modal Editar -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <form id="editPost" class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Editar Postagem</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body d-flex justify-content-center align-items-center" >
+                    <textarea style="height: 50px; width: 90%; font-size: 15px; background-color: white; color: black;" id="editarpostagem" name="editarpostagem" type="text"></textarea><br>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar Edição</button>
+                    <button type="button" id="btnEditar" class="btn btn-primary">Salvar Edição</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+
+</body>
+<script src="./js/Http.js"></script>
+<script src="./js/home.js"></script>
+
+</html>

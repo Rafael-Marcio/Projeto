@@ -1,0 +1,13 @@
+<tr>
+    <td class="text-center">{id}</td>
+    <td>{post}</td>
+    <td class="text-center">{data}</td>
+    <td class="text-center">{hora}</td>
+    <td class="text-center">
+
+        <i id={id} class="bi bi-pencil-fill text-success fs-2 p-2" data-id={id} onclick="EditarPost(this)"></i>
+        <i id={id} class="bi bi-trash text-danger fs-2 p-2" data-id={id} onclick="DeletarPost(this)"></i>
+
+    </td>
+
+</tr>
